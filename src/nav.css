@@ -1,0 +1,258 @@
+.navbar {
+    width: 100vw;
+    padding-bottom: 13vh;    
+    z-index: 3;
+    position: fixed;
+    opacity: 0;
+    display: block;
+    transition: opacity 0.6s ease-in-out, top 0.4s ease;
+}
+
+
+.visible {
+    opacity: 1;
+    transition: background-color 0.5s ease, top 0.5s ease-in-out;
+}
+
+.dark {
+    background-color: black!important;
+    transition: background-color 0.5s ease, opacity 0.6s ease-in-out;
+}
+
+
+
+#mob-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fa-bars {
+    padding-left: 4%;
+    padding-bottom: 4%;
+    padding-top: 2%;
+    font-size: 2em;
+}
+
+
+#stry-links {
+    display: none;
+    padding-top: 5%;
+}
+
+#stry-links > a {
+    text-decoration: none;
+}
+
+.abt-side {
+    display: none;
+}
+.abt-side > a {
+    text-decoration: none;
+}
+
+.nav-elem {
+    margin: 5%;
+    color: #FFFFFF;
+    font-weight: bold;
+    min-width: max-content;
+    position: relative;
+    display: inline-block;
+    margin: 15% 21% 0 4%;
+
+}
+
+  
+  .nav-elem::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.2s ease-in-out;
+  }
+  
+  .nav-elem:hover::after {
+    width: 100%;
+  }
+
+
+#desk-logo-img {
+    width: 12vw;
+    height: auto;
+}
+
+#mob-logo-img {
+    width: 35vw;
+    height: auto;
+}
+
+#translation-box {
+    display: none;
+    max-width: fit-content;
+    max-height: 25px;
+    border: 1px solid white;
+    background: none;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+}
+
+#translation-box > div {
+    width: 39px;
+    height: 23px;
+    font-family: "americane", sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#l-box {
+    background-color: white;
+    min-width: 39px;
+    font-weight: bold;
+}
+
+#r-box {
+    color: white;
+    min-width: 39px;
+}
+
+.nav-logo {
+    display: none;
+}
+
+
+
+/* FOOTER */
+#footer {
+    width: 100vw;
+    height: 39vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-soc {
+    width: 100vw;
+    display: flex;
+    padding: 2vh;
+    justify-content: space-around;
+}
+
+#footer-soc > a {
+    font-size: 1.8em;
+    color: white;
+}
+
+
+#footer-logo {
+    display: block;
+}
+
+#footer-abt {
+    display: flex;
+    align-items: center;
+}
+
+#copyright {
+    min-width: 30vw;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .fa-bars, #mob-logo {
+        display: none;
+    }
+
+    .navbar {
+        transition: background-color 1s ease;
+        display: grid;
+        padding-bottom: 0vh;    
+        background-image: linear-gradient(#3e3e3e7f , #3e3e3e00);
+        grid-template-areas: 
+        'mar side gap body gap side mar';
+        grid-template-columns: 1fr 9fr 4fr 50fr 4fr 10fr;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+
+        background-color: initial;
+        top: -100px;
+        transition: opacity 0.6s ease-in-out, top 0.4s ease;
+    }
+
+    .dark {
+        background-color: black;
+      }
+      
+    .visible {
+        top: 0;
+        transition: background-color 0.5s ease, top 0.5s ease-in-out;
+      }
+    
+    .nav-logo {
+        display: flex;
+    }
+    
+    .nav-elem {
+        margin: 0;
+        font-size: 1.4vw;
+        max-width: 8vw;
+    }
+    
+    #stry-links {
+        width: 100%;
+        display: flex;
+        padding-top: 0%;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+
+
+    #footer-main {
+        width: 60vw;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    #footer-soc {
+        width: 34%;
+    }
+    
+    .abt-side {
+        display: flex;
+        align-items: center;
+        padding: 0.5%;
+    }
+
+    #copyright {
+        font-size: initial;
+        text-align: initial;
+    }
+  }
+
+
+
+
+
+/* FOOTER */

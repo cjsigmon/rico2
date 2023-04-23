@@ -1,0 +1,147 @@
+#pop-anchor {
+    position: relative;
+    transform: translateX(calc(-56.25vw / 1.977));
+    margin-top: 15%;
+    margin-bottom: 170%;
+  }
+  
+  #pop-container {
+  position:absolute;
+  width: 199.8vw;
+    height: 100vh!important;
+    max-height: 100vh;
+    background-color: yellow;
+    display: inline-block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  #pop-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  #big-chart {
+    max-height: 100%;
+    width: 400vw;
+    height: 100vh;
+    background: none;
+    display: flex;
+    align-items: center; 
+    background-image: linear-gradient(to right, #e5e3df, #fbb520, #ffad00);
+
+  }
+
+  .popslide {
+    width: 70vw;
+    height: 70vh;
+    background-color: #fffdf7;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.322);
+    margin-left: 2vw;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #popslide1 {
+    margin-left: 10vw;
+  }
+
+  #flor1 {
+    border: 1px solid #fede9a;
+  }
+
+#lil-guys {
+    height: 65%;
+    width: 35%;
+}
+
+#stat-flex {
+    display: flex;
+}
+
+.pop-info {
+  font-size: 1.2vw;
+    max-width: 60%;
+    margin: 0;
+    display: block;
+}
+.color-num {
+    margin: 0;
+    color: #ffad00;
+    font-size: 4.4vw;
+    text-align: center;
+}
+
+#guys-img {
+  max-height: 86%;
+    width: auto;
+}
+
+#flor1 {
+    width: 55%;
+}
+#flor2 {
+    width: 100%;
+}
+#info3 {
+    margin: auto;
+}
+
+#popslide2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#popslide4 {
+    display: flex;
+    justify-content: space-around;
+}
+.vertio {
+    width: 38%;
+    height: 84%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 0 3px #999;
+
+}
+
+#plane, #covid {
+    width: 50%;
+}
+  
+#flor3 {
+    min-width: 60%;
+    margin-bottom: 6%;
+    box-shadow:  0 0 4px #999;
+}
+
+#slide-40 {
+    width: 40%;
+}
+#info-40 {
+    margin: auto;
+}
+#pyramid {
+    width: 60%;
+    margin: auto;
+    margin-left: 20%;
+}
+
+
+
+
+
+
+
+  #scrollCont {
+    position: absolute;
+    bottom: 5%;
+    left: 100vw;
+    transform: translateX(-200%);
+  }

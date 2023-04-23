@@ -1,0 +1,117 @@
+#ESC {
+  font-size: 35px;
+}
+
+.goback {
+    position: fixed;
+    right: 38px;
+    z-index: 5;
+}
+
+.wipes {
+  overflow: hidden;
+}
+
+.bg-img {
+  
+  width: 100%;
+  /* height: 100vh; */
+}
+
+
+#pinContainer {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  #pinContainer .panel {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    text-align: center;
+  }
+  .panel span {
+    top: 50%;
+    font-size: 80px;
+    font-family: "futura-pt-bold", sans-serif;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    display: none;
+  }
+
+  .panel {
+    background: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.medium-land {
+  width: 65%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  top: 0;
+}
+
+.medium-land.l {
+  left: -25%;
+  top: -10%;
+}
+
+.medium-land.r {
+  left: 25%;
+  top: 9%;
+}
+
+#gov11 {
+  max-height: none;
+}
+
+  .panel img {
+    box-shadow: 0px 0px 20vh rgb(0, 0, 0);
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+
+  .panel p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    margin: auto;
+    max-width: 70%;
+    font-family: "futura-pt-bold", sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+    box-shadow: 0px 0px 9px rgb(0, 0, 0);
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+.panel {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .gov1 {
+    background-image: url('img/gov/1Lewis-03112023-SAT-225.jpg');
+  }
+  .pow1 {
+    background-image: url('img/pow/20230405_Thiessen_Sequence_-1.jpg');;
+  }
+  .env1 {
+    background-image: url('img/env/20230405_Thiessen_Sequence_-1.jpg');
+  }
+  .com1 {
+    background-image: url('img/com/Connors_abandoned-schools-1.jpg');
+  }
+  .hea1 {
+    background-image: url('img/hea/20230405_Diehl_PR_Sequence-1.jpg');
+  }
+
+  .drrk > img {
+    box-shadow: 0px 0px 550px 150px rgb(0, 0, 0);
+  }

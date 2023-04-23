@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Roboto:wght@300&display=swap');
+@import url('https://use.typekit.net/ick1wdz.css');
+
+
+
+/* timeline */
+
+.time-anchor {
+  transform: translateX(calc(-56.25vw / 1.977));
+  position: relative;
+  margin-top: 15%;
+  margin-bottom: 170%;
+  background-color: pink;
+}
+
+.time-container {
+position:absolute;
+  width: 199.8vw;
+  height: 100vh!important;
+  /* border: 3px solid orange; */
+  background: none;
+  display: inline-block;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.time-container::-webkit-scrollbar {
+  display: none;
+}
+
+#bigline {
+  height: 100vh!important;
+}
+
+
+
+#titlecard {
+  position: relative;
+  display: inline-block;
+  flex-direction: row;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh!important;
+  /* background-image: url('/img/timeline/2015.jpeg'); */
+  /* background-image: url('./img/timeline/timeline_background1.jpg');
+  background-size: cover;
+  background-position-y: center; */
+  /* background-color: #004E65; */
+}
+
+.blur-image {
+  transition: filter 2.5s ease;
+  filter: blur(0px);
+}
+
+.blur-image.blurred {
+  transition: filter 2.5s ease;
+  filter: blur(5px);
+}
+
+#titlecard h1, h4 {
+  color: #ff6600;
+  max-width: 60vw;
+  margin: 2vh;
+}
+
+#titlecard h1 {
+  font-size: 13.5vh;
+}
+
+#titlecard h4 {
+  margin-left: 3vh;
+  font-weight: 600;
+}
+
+#progbar {
+  position: fixed;
+  z-index: 2;
+  left: 50vw;
+  transform: translateX(-50%);
+  
+  margin-top: 110%;
+  width: 80vw;
+  height: 9px;
+  background-color: #ff660082;
+}
+
+#progfill {
+  position: inherit;
+  z-index: inherit;
+  height: 9px;
+  width: 1%;
+  background-color: #ff6600;
+}
+
+#bigline {
+  position: relative;
+  width: 1200vw;
+  height: 80vh;
+  background: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#midline {
+  position: absolute;
+  height: 1px;
+  width: inherit;
+  border: 2px solid #ee702dd2;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.timeline-bg {
+  height: inherit;
+  position: fixed;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.timeline-bg img {
+  width: 100vw;
+  filter: sepia(50%) brightness(40%);
+}
+
+.vert-line-event {
+  position: relative;
+  height: 100%;
+  width: auto;
+  margin-left: 5vw;
+}
+
+#end {
+  margin-right: 110vw;
+}
+
+.vert-line-event:hover {
+  cursor: pointer;
+  scale: 110%;
+}
+
+.vert-line-event:hover .lil-circ {
+  background-color: #ee702d;
+}
+
+.vert-line-event.cent:hover {
+  scale: none;
+  cursor: initial;
+}
+
+.topper, .botter {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desc-box {
+  max-width: 180px;
+  height: 60%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.desc-box.bot {
+  align-items: flex-start;
+}
+
+
+.white-desc {
+  max-width: 180px;
+  text-align: center;
+  color: white;
+  font-size: 1.9vh;
+  margin-bottom: 5px;
+}
+
+
+.bott-date, .top-date {
+  height: 50%;
+}
+
+.date {
+  margin-top: 13%;
+  max-width: 180px;
+  font-size: 3.5vh;
+  color: var(--goverance);
+  color: #ff6600;
+  text-align: center;
+}
+
+.top-date {
+  display: flex;
+  justify-content: center;
+}
+
+.date.top {
+  display: flex;
+  align-items: flex-end;
+}
+
+.vert-line-top {
+  height: 40%;
+  width: 1px;
+  border: 1px solid #ee702dec;
+  margin-bottom: 10%;
+}
+
+.lil-circ {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 15px;
+  width: 15px;
+  border: 3px solid #ee702d;
+  border-radius: 50%;
+}
+
+.century {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 2px solid #ee702d;
+}
+
+.century-name {
+  color: #ff6600;
+  max-width: 180px;
+  margin: 0;
+  line-height: 1.2;
+  padding-bottom: 5px;
+}
+
+/* modal styles */
+#modal-window {
+  position: fixed;
+  left: 50vw;
+  transform: translateX(-50%);
+  top: 9vh;
+  width: 80vw;
+  height: 80vh;
+  z-index: 2;
+  background-color: white;
+  box-shadow: 0 0 15px black;
+  display: grid;
+  grid-template-columns: 1fr 18fr 1fr;
+  grid-gap: 5px;
+  padding: 20px;
+  object-fit: contain;
+}
+
+.modal-content {
+  position: relative;
+}
+
+.modal-content img {
+ max-height: 52vh;
+ width: auto;
+ margin-left: 50%;
+ transform: translateX(-50%);
+ max-width: 90%;
+}
+
+
+
+.modal-content h4 {
+  margin-top: 0;
+}
+
+.credit-mod {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 1.3vw!important;
+}
+
+
+#modal-window p {
+  display: inline-block;
+  color: #004E65;
+}
+
+.arr-esc {
+  position: relative;
+}
+
+.fa-circle-xmark {
+  position: absolute;
+  top: 0;
+}
+
+.arrow, .esc {
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  top: 41vh;
+}
+
+.fa-chevron-right, .fa-chevron-left {
+  font-size: 3vh;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+}
+
+
+/* end timeline */
+
+
+
+
+/* fentanyl interactive */
+
+.fill-width {
+    position: relative;
+    width: 180%;
+    transform: translateX(-25%);
+    height: 60vh;
+    margin: 55px 0 55px 0;
+    background-color: gray;
+    box-shadow: 5px 5px 1px black;
+}
+
+#fent-bg {
+    background-image: url('img/chalkboard.jpg')
+}
+
+#fent-title {
+  font-family: "futura-pt-bold", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.7vw;
+    letter-spacing: 0;
+    margin: 0;
+  position: absolute;
+  top: 20px;
+  width: max-content;
+  left: 50%;
+  
+  transform: translateX(-50%);
+  color: white;
+}
+
+#src-cont {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.sources {
+  display: none;
+  width: 80%;
+  height: 70%;
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 10px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: aliceblue;
+  z-index: 1;
+}
+
+.sources > a {
+  color: var(--healthcare);
+  font-family: "americane", sans-serif;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+#abt-drug-cont {
+  position: absolute;
+  width: 40%;
+  top: 80px;
+  right: 20px;
+}
+
+#drugname {
+  border: 3px dashed gainsboro;
+  padding: 4px;
+}
+
+#drugname-title {
+  font-size: 100%;
+}
+
+#drugname h5, #drugname p {
+  margin: 0;
+  color: white;
+}
+
+#drugname p, #fact-graf p   { 
+  font-size: 2vh;
+}
+
+#fact-graf p {
+  margin-top: 5px;
+  color: white;
+}
+
+#grams-cont {
+  position: absolute;
+  bottom: 0;
+  left: 44%;
+  transform: translateX(-50%);
+}
+
+#grams {
+  color: white;
+}
+
+#btn-cont {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  background: none;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:focus > .sq:not(#srcSq) {
+  background-color: whitesmoke;
+}
+
+
+.sq {
+  cursor: pointer;
+  height: 2.5vw;
+  width: 2.5vw;
+  border: 2px solid white;
+  margin-right: 8px;
+}
+
+.btn-text {
+  color: white;
+  font-family: "americane", sans-serif;
+  font-weight: 700;
+  font-size: 1.5vw;
+  font-style: bold;
+  margin: 0;
+}
+
+.svg-cont {
+  width: 100%;
+}
+
+#Layer_1 {
+  width: 27vw;
+  padding-left: 10vw;
+  transform: translate(11vw, 7vw);
+  height: auto;
+  
+}
+
+#shading-inner-cap {
+    display: none;
+}
+
+#measure > g > line, #measure > g > path {
+    stroke: gray;
+}
+
+#drugs-2, #drugs-3 {
+    display: none;
+}
+
+  .cls-1, .cls-2, .cls-5 {
+    stroke: rgb(255, 255, 255);
+    stroke-miterlimit: 10;
+  }
+
+  .cls-3 {
+    stroke: gray;
+  }
+  
+  .cls-4 {
+    stroke: rgb(230, 230, 230);
+  }
+
+  .cls-1, .cls-3 {
+    fill: none;
+  }
+
+  .cls-1, .cls-4 {
+    stroke-width: 3px;
+  }
+
+  .cls-2 {
+    stroke-width: 5px;
+  }
+
+  .cls-2, .cls-5 {
+    fill:  #004E65;
+  }
+
+  .cls-3, .cls-5 {
+    stroke-width: .75px;
+  }
+
+  .cls-4 {
+    fill: #fff;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* timeline */
+    .time-anchor {
+      transform: translateX(-15.5vw);
+    }
+
+    #bigline {
+      height: 70vw;
+    }
+
+    #titlecard {
+      height: 100%;
+      width: 75vh;
+    }
+
+    #titlecard h1 {
+      font-size: 6.5vw;
+    }
+
+    .modal-window {
+      height: 55vh;
+      top: -20vh;
+    }
+    
+    .white-desc {
+      font-size: 1.1vh;
+    }
+
+    /* .modal-content {
+      max-height: ;
+    } */
+
+    .modal-content > img {
+      max-width: 100%;
+    }
+
+    .cent {
+      width: 80px;
+    }
+
+    .vert-line-event:hover {
+      cursor: initial;
+      scale: initial;
+    }
+
+
+    /* fentanyl interactive */
+    .fill-width{
+      width: 100vw;
+      height: 230vw;
+      transform: translateX(-15%);
+    }
+
+    #fent-title {
+      font-size: 1.5vh;
+    }
+
+    #btn-cont {
+      left: 0;
+      right: 0;
+      margin: auto;
+      top: 5%;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    #btn-cont button {
+      margin: 0;
+    }
+
+    .sq {
+      height: 2.5vh;
+      width: 2.5vh;
+    }
+
+    .btn-text {
+      font-size: 1.5vh;
+    }
+
+
+    #Layer_1 {
+      width: 60vw;
+      padding-left: 10vw;
+      transform: translate(11vw, 30vw);
+      height: auto;
+    }
+
+    #abt-drug-cont {
+      position: absolute;
+      width: 75%;
+      top: 53%;
+      right: 0;
+      bottom: auto;
+      left: 0;
+      margin: auto;
+    }
+
+    #grams-cont {
+      position: absolute;
+      top: 43%;
+      bottom: auto;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+
+  @media only screen and (max-width: 420px) {
+
+    #bigline {
+      height: 30vh;
+    }
+
+  }
+
