@@ -46,6 +46,9 @@
     background-size: cover;
   }
 
+.photo-title {
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
 
 .medium-land {
   width: 65%;
@@ -91,11 +94,27 @@
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
   }
+
+  .pho-ti {
+    background: none!important;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: max-content;
+  }
   
 .panel {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .sc-instruct {
+  color: white;
+  position: relative;
+  margin: auto;
+  margin-bottom: 2%;
+  }
+ 
   .gov1 {
     background-image: url('img/gov/1Lewis-03112023-SAT-225.jpg');
   }

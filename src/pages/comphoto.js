@@ -135,6 +135,15 @@ p12Ref.current.style.opacity = '1';
           <section ref={pan1Ref} className="panel com1"><span>Scroll to begin<br /> {DOWN}</span></section>
           {/* panel 1 */}
           <Tween
+            from={{ x: '0%' }}
+            to={{ x: '-100%' }}
+          >
+            <section className="panel"><p className="pho-ti" ref={p1Ref}>
+              <h1 className="photo-title">"Here I Dreamed"</h1>
+              <h4 className="sc-instruct">Scroll/drag down to begin photo experience</h4>
+</p></section>
+          </Tween>
+          <Tween
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
