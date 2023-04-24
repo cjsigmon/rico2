@@ -32,15 +32,18 @@
 
     
       let scrollTimeout;
-window.addEventListener('scroll', () => {
-  // clear any existing timeout
-  clearTimeout(scrollTimeout);
-  var miframe = document.getElementById("miframe");
-  
-  // set a new timeout to delay the handleScroll() function
-  scrollTimeout = setTimeout(() => {
+      if (window) {
+        window.addEventListener('scroll', () => {
+            // clear any existing timeout
+            clearTimeout(scrollTimeout);
+            var miframe = document.getElementById("miframe");
+            
+            // set a new timeout to delay the handleScroll() function
+            scrollTimeout = setTimeout(() => {
+          
+              handleScroll();
+            }, 500); // 500 milliseconds delay
+          });
+      }
 
-    handleScroll();
-  }, 500); // 500 milliseconds delay
-});
 
