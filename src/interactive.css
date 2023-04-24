@@ -82,7 +82,7 @@ position:absolute;
   left: 50vw;
   transform: translateX(-50%);
   
-  margin-top: 110%;
+  margin-top: 100%;
   width: 80vw;
   height: 9px;
   background-color: #ff660082;
@@ -526,8 +526,9 @@ button:focus > .sq:not(#srcSq) {
       transform: translateX(-15.5vw);
     }
 
-    #bigline {
-      height: 70vw;
+
+    .time-container, #bigline {
+      height: 100vw!important;
     }
 
     #titlecard {
@@ -563,6 +564,18 @@ button:focus > .sq:not(#srcSq) {
     .vert-line-event:hover {
       cursor: initial;
       scale: initial;
+    }
+
+    #progbar {
+      margin-top: 140%;
+    }
+
+    #titlecard {
+      height: 100vw!important;
+    }
+
+    #titlecard h1 {
+      margin-left: 3vh;
     }
 
 

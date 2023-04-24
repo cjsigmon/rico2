@@ -99,12 +99,13 @@ p, h2, h3, h4, h5, .wp-element-caption {
 }
 
 .home-title {
-    font-size: 7vw;
+    font-size: 6.2vw;
     position: absolute;
-    bottom: 80%;
+    bottom: 100%;
     color: black;
     padding-left: 3%;
     padding-right: 4%;
+    padding-bottom: 2%;
     width: 100vw;
 }
 

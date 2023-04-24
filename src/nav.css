@@ -58,7 +58,7 @@
     min-width: max-content;
     position: relative;
     display: inline-block;
-    margin: 15% 21% 0 4%;
+    margin: 10% 21% 0 4%;
 
 }
 
@@ -80,7 +80,7 @@
 
 
 #desk-logo-img {
-    width: 12vw;
+    width: 45vw;
     height: auto;
 }
 
@@ -232,6 +232,10 @@
         align-items: center;
         padding-left: 0.5%;
         padding-right: 0.5%;
+    }
+
+    #desk-logo-img {
+        width: 12vw;
     }
 
 

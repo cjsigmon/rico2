@@ -214,7 +214,7 @@ export default function VideoComp({ left, link, color }) {
                   <button id="sml-play-pause" ref={vidBtnRef} onClick={handleButtonClick}>{playing ? PAUSE : PLAY}</button>
                   <button onClick={handleFullScreen}>{FULLSCREEN}</button>
                 </div>
-                {/* <button className="vid-btn" ref={vidBtnRef} aria-hidden="false" onClick={handleButtonClick}>{playing ? PAUSE : PLAY}</button> */}
+                <button className="vid-btn" ref={vidBtnRef} onClick={handleButtonClick}>{playing ? PAUSE : PLAY}</button>
               </div>
 
 
