@@ -135,9 +135,13 @@ export default function About() {
     
     return (
         <div className="abt-wrapper">
-            <p className="abt-body-t">Taking pictures of sharks can be a thrilling experience, but it also requires safety precautions. Researching the species, using a protective cage or staying at a safe distance, and securing your equipment are essential to minimize the risk of harm. By respecting the natural environment and the sharks, you can capture stunning photos while keeping everyone safe.
+            <p className="abt-body-t">
+                Hello there! We are a group of storytellers consisting of student videographers and photographers, web designers and developers, reporters and faculty members. Our shared mission is to amplify the voices of Puerto Ricans, and to share their stories of strength and hope through our multimedia project: Isla de Fuerza.
             <br></br><br></br>
-            Capturing pictures of sharks can be a rewarding experience, but safety should always come first. Avoid wearing shiny or reflective jewelry, and do not disturb the sharks or their habitat. With proper preparation and safety measures in place, you can enjoy the excitement of photographing these magnificent creatures while protecting both yourself and the sharks.
+In 2018, we reported on the Aftermath of Hurricane Maria. Five years later, we’ve returned to continue learning about the culture and people of the island through the lenses of power, community, governance, environment and healthcare. We hope to inspire others to join the conversation through the stories we’ve gathered.
+            <br></br><br></br>
+As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism and Media, we have the privilege of learning firsthand about the rewards and challenges of reporting on diverse cultures. As aspiring journalists, we are dedicated to collaborating as a team to deliver impactful multimedia work that sheds light on the stories shaping our global community.
+
             </p>
             <div class="circle-container">
                 <div className="circle yellow"></div>
