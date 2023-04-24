@@ -78,7 +78,7 @@ function Interactive({ title }) {
                       <p ref={subRef}>C<sub>18</sub>H<sub>21</sub>NO<sub>4</sub> | Density: ~1.4g/mL</p>
                     </div>
                     <div id="fact-graf">
-                      <p ref={descRef}>Prescription opioids account for most overdoses. And oxycodone is one of the most common prescription opioids, being 
+                      <p ref={descRef}>About 80mg / 57.14mL is lethal. Prescription opioids account for most overdoses. And oxycodone is one of the most common prescription opioids, being 
                         found in the drugs OxyContin and Percocet. According to Delphi 
                         Behavioral Health Group, the typical overdose is 80mg; however, many
                          factors—like weight and previous prescriptions—affect tolerance.
