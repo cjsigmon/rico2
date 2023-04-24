@@ -7,10 +7,12 @@ import envImage from '../img/environment.jpg';
 import comImage from '../img/community.jpg';
 import { useStaticQuery, graphql } from "gatsby"
 import MyContext from "../MyContext";
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 
-export default function ReadMore({ exclude, eng }) {
+export default function ReadMore(props) {
+    const { strI } = props;
     const { myBoolean, setMyBoolean } = useContext(MyContext);
+    const [ exclude, setExclude] = useState(" ");
     const envLink = "/against-the-current";
     const comLink = "/community";
     const govLink = "/governance";
@@ -22,6 +24,54 @@ export default function ReadMore({ exclude, eng }) {
     const gobLink = "/gobernancia"
     const fueLink = "/fuerza";
     const salLink = "/salud";
+
+    useEffect(() => {
+        if (strI == 12 || (strI > 5 && strI < 11)) {
+          setMyBoolean(false);
+        } 
+        switch(strI) {
+            
+            case 1:
+              exclude = "STEP BY STEP";
+              break;
+      
+              case 2:
+                exclude = "COMMUNITY";
+                break;
+      
+                case 3:
+                    exclude = "GOVERNANCE";
+              break;
+      
+              case 4:
+                exclude = "AGAINST THE CURRENT";
+              break;
+      
+              case 5:
+                exclude = "ROAD TO RECOVERY";
+              break;
+      
+              case 6:
+                exclude = "PASO A PASO";
+              break;
+      
+              case 7:
+                exclude = "COMUNIDAD";
+              break;
+      
+              case 8:
+                exclude = "GOBERNANCIA";
+              break;
+      
+              case 9:
+                exclude = "AMBIENTE";
+              break;
+      
+              case 10:
+                exclude = "SALUD";
+              break;
+          } 
+    }, []);
     
 
     return (
@@ -37,13 +87,13 @@ export default function ReadMore({ exclude, eng }) {
             <h2>MORE FROM ISLA DE FUERZA</h2>
 
             {myBoolean ? <div className="more-thumbs">
-                {exclude === 'PASO A PASO' ? <></> :  <a href={powLink}><div className="readmore-hold"><img src={powImage}></img><h4 id="powread">PASO A PASO</h4></div></a>}
+                {exclude === 'STEP BY STEP' ? <></> :  <a href={powLink}><div className="readmore-hold"><img src={powImage}></img><h4 id="powread">STEP BY STEP</h4></div></a>}
                 {exclude === 'COMMUNITY' ? <></> :  <a href={comLink}><div className="readmore-hold"><img src={comImage}></img><h4 id="comread">COMMUNITY</h4></div></a>}
                 {exclude === 'GOVERNANCE' ? <></> :  <a href={govLink}><div className="readmore-hold"><img src={govImage}></img><h4 id="govread">GOVERNANCE</h4></div></a>}
                 {exclude === 'AGAINST THE CURRENT' ? <></> :  <a href={envLink}><div className="readmore-hold"><img src={envImage}></img><h4 id="envread">AGAINST THE CURRENT</h4></div></a>}
                 {exclude === 'ROAD TO RECOVERY' ? <></> :  <a href={healthLink}><div className="readmore-hold"><img src={healthImage}></img><h4 id="hearead">ROAD TO RECOVERY</h4></div></a>}
             </div> : <div className="more-thumbs">
-                {exclude === 'FUERZA' ? <></> :  <a href={fueLink}><div className="readmore-hold"><img src={powImage}></img><h4 id="powread">Fuerza</h4></div></a>}
+                {exclude === 'PASO A PASO' ? <></> :  <a href={fueLink}><div className="readmore-hold"><img src={powImage}></img><h4 id="powread">PASO A PASO</h4></div></a>}
                 {exclude === 'COMUNIDAD' ? <></> :  <a href={cmdLink}><div className="readmore-hold"><img src={comImage}></img><h4 id="comread">COMUNIDAD</h4></div></a>}
                 {exclude === 'GOBERNANCIA' ? <></> :  <a href={gobLink}><div className="readmore-hold"><img src={govImage}></img><h4 id="govread">GOBERNANCIA</h4></div></a>}
                 {exclude === 'AMBIENTE' ? <></> :  <a href={ambLink}><div className="readmore-hold"><img src={envImage}></img><h4 id="envread">AMBIENTE</h4></div></a>}

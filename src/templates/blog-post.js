@@ -355,9 +355,9 @@ useEffect(() => {
       <div className="r-stry-mar"></div>
       <div className="r-mar"></div>
     </div>
-    <ReadMore exclude={post.title} eng={myBoolean}/> </> : <About strI={strI} />}
+    <ReadMore strI={strI}/> </> : <About strI={strI} />}
     
-    <Footer path={altSlug} />
+    <Footer strI={strI} />
     </main>
     </MyContext.Provider>
     

@@ -179,7 +179,7 @@ const HomePage = () =>  {
        
 
 
-              <Footer/>
+              <Footer strI={0}/>
           </main>        
         )
       }

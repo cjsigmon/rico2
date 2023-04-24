@@ -50,15 +50,13 @@ function Navbar (props) {
   useEffect(() => {
       if (strI == 12 || (strI > 5 && strI < 11)) {
         setEnglish(false);
+        setMyBoolean(false);
       } 
   }, [english]);
 
   // new useEffect:
   useEffect(() => {
-    if (first) {
-      console.log("page is " +strI);
-      setFirst(false);
-    }
+    
 
 
     window.addEventListener('scroll', handleScroll);
@@ -121,8 +119,7 @@ function Navbar (props) {
           case 12:
           window.location.href = "/about";
           break;
-    }
-    
+    } 
   };
 
   const navRef = useRef(null);
@@ -179,7 +176,7 @@ function Navbar (props) {
               
             <div ref={abtRef} className="abt-side">
               <Link class="nav-elem-a" to={english ? "/about" : "/sobre"}><h4 class="nav-elem">{english? "ABOUT" : "SOBRE"}</h4></Link>
-              <button onClick={handleButtonClick} id="translation-box"><div id={english ? "l-box" : "r-box"}>EN</div><div id={english ? "r-box" : "l-box"}>ES</div></button>
+              <button onClick={handleButtonClick} id="translation-box"><div id={myBoolean ? "l-box" : "r-box"}>EN</div><div id={myBoolean ? "r-box" : "l-box"}>ES</div></button>
             </div>
           
     </div>
