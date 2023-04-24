@@ -101,6 +101,10 @@
     padding: 0;
 }
 
+#translation-bx:hover {
+    cursor: pointer;
+}
+
 #translation-box > div {
     width: 39px;
     height: 23px;

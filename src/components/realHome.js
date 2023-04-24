@@ -57,8 +57,8 @@ const HomePage = () =>  {
              </Link>
            </div>
            <div className={"left-title"}>
-             <Link to={ "/paso-a-paso" }><h1 className="home-title" id={"POWER-home-title"}>PASO A PASO</h1></Link>
-             <p className={"home-subtitle lsub"} id={"POWER-subtitle"}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eir mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam volu</p>
+             <Link to={ "/paso-a-paso" }><h1 className="home-title" id={"POWER-home-title"}>STEP BY STEP</h1></Link>
+             <p className={"home-subtitle lsub"} id={"POWER-subtitle"}>Puerto Rico’s electrical recovery and the efforts for a sustainable future</p>
            </div>
          </div>
          <div className="home-story-pics" id={"COMMUNITY"}>
@@ -68,8 +68,8 @@ const HomePage = () =>  {
              </Link>
            </div>
            <div className={"right-title"}>
-             <Link to={ "/community" }><h1 className="home-title" id={"COMMUNITY-home-title"}>COMMUNITY</h1></Link>
-             <p className={"home-subtitle rsub"} id={"COMMUNITY-subtitle"}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eir mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam volu</p>
+             <Link to={ "/community" }><h1 className="home-title" id={"COMMUNITY-home-title"}>A CULTURAL ANCHOR</h1></Link>
+             <p className={"home-subtitle rsub"} id={"COMMUNITY-subtitle"}>As schools close all across the island, community centers reclaim their spaces</p>
            </div>
          </div>
 
@@ -80,32 +80,32 @@ const HomePage = () =>  {
              </Link>
            </div>
            <div className={"left-title"}>
-             <Link to={ "/governance" }><h1 className="home-title" id={"GOVERNANCE-home-title"}>GOVERNANCE</h1></Link>
-             <p className={"home-subtitle lsub"} id={"POWER-subtitle"}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eir mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam volu</p>
+             <Link to={ "/governance" }><h1 className="home-title" id={"GOVERNANCE-home-title"}>RESISTANT, NOT RESILIENT</h1></Link>
+             <p className={"home-subtitle lsub"} id={"POWER-subtitle"}>Loíza builds its own support systems while looking to its future</p>
            </div>
          </div>
 
          <div className="home-story-pics" id={"ENVIRONMENT"}>
            <div className={"clickme wh"} id="lcl">
-             <Link className="cl-title" to={ "/environment" }>
+             <Link className="cl-title" to={ "/against-the-current" }>
                <h5>READ THIS STORY</h5>
              </Link>
            </div>
            <div className={"right-title"}>
-             <Link to={ "/against-the-current" }><h1 className="home-title" id={"ENVIRONMENT-home-title"}>ENVIRONMENT</h1></Link>
-             <p className={"home-subtitle rsub"} id={"ENVIRONMENT-subtitle"}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eir mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam volu</p>
+             <Link to={ "/against-the-current" }><h1 className="home-title" id={"ENVIRONMENT-home-title"}>ERODING AWAY</h1></Link>
+             <p className={"home-subtitle rsub"} id={"ENVIRONMENT-subtitle"}>A community’s fight against waves of environmental injustice and unjust development</p>
            </div>
          </div>
 
          <div className="home-story-pics" id={"HEALTHCARE"}>
            <div className={"clickme wh"} id="rcl">
-             <Link className="cl-title" to={ "/healthcare" }>
+             <Link className="cl-title" to={ "/road-to-recovery" }>
                <h5>READ THIS STORY</h5>
              </Link>
            </div>
            <div className={"left-title"}>
-             <Link to={ "/road-to-recovery" }><h1 className="home-title" id={"HEALTHCARE-home-title"}>HEALTHCARE</h1></Link>
-             <p className={"home-subtitle lsub"} id={"HEALTHCARE-subtitle"}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eir mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam volu</p>
+             <Link to={ "/road-to-recovery" }><h1 className="home-title" id={"HEALTHCARE-home-title"}>ROAD TO RECOVERY</h1></Link>
+             <p className={"home-subtitle lsub"} id={"HEALTHCARE-subtitle"}>How one organization is working to address Puerto Rico’s worsening opioid crisis</p>
            </div>
          </div>
            </>
@@ -118,12 +118,12 @@ const HomePage = () =>  {
             : <>
             <div className="home-story-pics" id={"POWER"}>
             <div className={"clickme bl"} id="rcl">
-              <Link className="cl-title" to={ "/fuerza" }>
+              <Link className="cl-title" to={ "/paso-a-paso-esp" }>
                 <h5>LEE ESTA HISTORIA</h5>
               </Link>
             </div>
             <div className={"left-title"}>
-              <Link to={ "/fuerza" }><h1 className="home-title" id={"POWER-home-title"}>FUERZA</h1></Link>
+              <Link to={ "/paso-a-paso-esp" }><h1 className="home-title" id={"POWER-home-title"}>FUERZA</h1></Link>
               <p className={"home-subtitle lsub"} id={"POWER-subtitle"}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eir mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam volu</p>
             </div>
           </div>
