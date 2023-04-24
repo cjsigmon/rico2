@@ -15,13 +15,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">  
 
   <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      color: #1d1d1d;
-    }
+    
 
     .wrapper {
       padding: 96px 0;
+      background-color:  #1d1d1d;;
+    }
+
+
+
+    .text-block > p {
+      font-family: 'Poppins', sans-serif;
     }
 
     .text-body-2 {
@@ -48,7 +52,7 @@
       position: relative;
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex;
+      display: flex!important;
       /* background-color: #f3f3f3; */
       padding: 1rem;
       background-color: #1d1d1d;
@@ -57,7 +61,7 @@
     .scrolly__content {
       position: relative;
       padding: 0 1rem;
-      width: 30%;   
+      max-width: 30%;   
       z-index: 1;
       flex: 1;
       flex-basis: 30%;
@@ -67,11 +71,13 @@
     .scrolly__chart {
       position: -webkit-sticky;
       position: sticky;
-      width: 100%;
+      width: 50%;
+      height: 30vw;
       margin: 0;
       -webkit-transform: translate3d(0, 0, 0);
       -moz-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
+      transform: translateX(-15%);
       z-index: 0;
       flex: 1;
       flex-basis: 70%;
@@ -84,7 +90,7 @@
     }
 
     .step {
-      margin: 0 auto 2rem auto;
+      margin: 0 auto 70vh auto;
       display: flex;
       justify-content: center;
       align-items: start;      
@@ -107,8 +113,8 @@
 </head>
 
   <body>
-    <div class="wrapper">
-        <div id="scrolly__section">
+    <div class="wrapper" id="wrappa">
+        <div id="scrolly__section" style="  display: flex!important;">
           <div class="scrolly__content">
             <div class="step" data-step="1">
               <div class="text-block">
@@ -130,8 +136,8 @@
             </div>
           </div>
 
-          <div class="scrolly__chart">
-            <iframe scrolling="no" src="https://flo.uri.sh/story/1894096/embed#slide-0"></iframe>
+          <div class="scrolly__chart" style="position: fixed!important; margin-left: 50vw;">
+            <iframe id="miframe" scrolling="no" src="https://flo.uri.sh/story/1894096/embed#slide-0"></iframe>
           </div>
       </div>
     </div>
@@ -141,76 +147,12 @@
     <script src="https://unpkg.com/intersection-observer"></script>
     <script src="https://unpkg.com/scrollama"></script>    
     <script src="https://public.flourish.studio/resources/embed.js"></script>
+    <script src="tellscript.js"></script>
     
 
     <!-- This code from here on is derived from the side-by-side code example from the scrollama library which can be found here: https://github.com/russellgoldenberg/scrollama  -->
     <!-- I tweaked the function for handleStepEnter to accomodate the Flourish story! -->
 
-    <script>
-      var scrolly = d3.select("#scrolly__section");
-      var chart = scrolly.select(".scrolly__chart");
-      var content = scrolly.select(".scrolly__content");
-      var step = content.selectAll(".step");
-    
-      // initialize the scrollama
-      var scroller = scrollama();
-    
-      // generic window resize listener event
-      function handleResize() {
-        // 1. update height of step elements
-        var stepH = Math.floor(window.innerHeight * 1);
-        step.style("height", stepH + "px");
-    
-        var figureHeight = window.innerHeight * 0.75;
-        var figureMarginTop = (window.innerHeight - figureHeight) / 2;
-    
-        chart
-          .style("height", figureHeight + "px")
-          .style("top", figureMarginTop + "px");
-    
-        // 3. tell scrollama to update new element dimensions
-        scroller.resize();
-      }
-    
-      // scrollama event handlers
-      function handleStepEnter(response) {
-        const textblock = step.select(".text-block");
-
-        // add color to current step only
-        textblock.classed("is-active", function(d, i) {
-          return i === response.index;
-        });
-    
-        // update graphic based on step
-        const linkHead = 'https://flo.uri.sh/story/1894096/embed#slide-'
-        const slide = response.index
-
-        d3.select('.scrolly__chart iframe')
-          .attr('src', linkHead + slide);
-      }
-    
-      function setupStickyfill() {
-        d3.selectAll(".sticky").each(function() {
-          Stickyfill.add(this);
-        });
-      }
-    
-      function init() {
-        setupStickyfill();
-        handleResize();
-        scroller
-          .setup({
-            step: "#scrolly__section .scrolly__content .step",
-            offset: 0.7,
-            debug: false
-          })
-          .onStepEnter(handleStepEnter);
-    
-        // setup resize event
-        window.addEventListener("resize", handleResize);
-      }
-    
-      init();
-    </script>    
+  
   </body>
 </html>

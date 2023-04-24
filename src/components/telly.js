@@ -15,12 +15,8 @@ function Telly() {
             return (
 
                 <div className="photo-frame-container" id="book-container">           
-                  <div>
-      <Helmet>
-        <title>My HTML Page</title>
-      </Helmet>
-      <div dangerouslySetInnerHTML={{ __html: tellyHtml }}></div>
-    </div>
+                  <iframe className="photo-frame" src="/tellyp" title="Other Page" /> 
+                  {/* <div className="cover-frame" ></div> */}
                 </div>
 
 
