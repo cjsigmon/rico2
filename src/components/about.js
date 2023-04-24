@@ -887,13 +887,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
                             <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                         </div>
-                    </div>
-
-                    
-
-                    
-
-                    
+                    </div>        
                 </div>
             </div>
         </div>
