@@ -119,8 +119,9 @@
     background-image: url('img/gov/1Lewis-03112023-SAT-225.jpg');
   }
   .pow1 {
-    background-image: url('img/pow/20230405_Thiessen_Sequence_-1.jpg');;
+    background-image: url('img/pow/20230405_Thiessen_Sequence_-1.jpg');
   }
+
   .env1 {
     background-image: url('img/env/20230405_Thiessen_Sequence_-1.jpg');
   }
@@ -129,6 +130,16 @@
   }
   .hea1 {
     background-image: url('img/hea/20230405_Diehl_PR_Sequence-1.jpg');
+  }
+
+  .b1 {
+    background-image:url("https://picsum.photos/1920/1080");  
+  }
+  .b2 {
+    background-image:url("https://picsum.photos/1000/1080");  
+  }
+  .b3 {
+    background-image:url("https://picsum.photos/500/1080");
   }
 
   .drrk > img {

@@ -287,10 +287,7 @@ useEffect(() => {
 
   const options = {
     replace: (node) => {
-      if (node.attribs && node.attribs.class === "replace-photo") {
-        return  <CustomImage />;
-      }
-      else if (node.attribs && node.attribs.class === "replace-video") {
+     if (node.attribs && node.attribs.class === "replace-video") {
         switch(node.attribs.id) {
           case "health-vid":
             return <VideoComp color={color.color} link={"https://player.vimeo.com/video/291295858?h=fee30cc906"} />;

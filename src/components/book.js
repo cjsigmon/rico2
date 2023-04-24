@@ -9,12 +9,11 @@ function Book() {
     
     
             return (
-                <div className="photo-frame-container">
-                    <p>HEYYY</p>
-                  {/* <iframe className="photo-frame" src="/bookpage" title="Other Page" />  */}
-
-HeYYYYYYYYYYYYYYYYYYYYYYYYY
+                <div className="photo-frame-container">           
+                  <iframe className="photo-frame" src="/bookpage" title="Other Page" /> 
                 </div>
+
+
             );
 }
 
