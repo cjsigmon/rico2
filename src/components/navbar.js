@@ -50,9 +50,7 @@ function Navbar (props) {
   useEffect(() => {
       if (strI == 12 || (strI > 5 && strI < 11)) {
         setEnglish(false);
-      } else if (strI == 0) {
-        // setMyBoolean(!myBoolean);
-      }
+      } 
   }, [english]);
 
   // new useEffect:
@@ -71,6 +69,11 @@ function Navbar (props) {
 
   const handleButtonClick = () => {
     switch(strI) {
+      case 0: 
+        setEnglish(!english);
+        setMyBoolean(!myBoolean);
+        break;
+
       case 1:
         window.location.href = "/paso-a-paso-esp";
         break;
