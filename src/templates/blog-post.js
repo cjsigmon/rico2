@@ -13,13 +13,14 @@ import Footer from "../components/footer"
 import Section from "../components/section"
 import PullQuote from "../components/pullquote"
 import ReadMore from "../components/readMore"
-import { useContext, useRef, useEffect, useCallback } from 'react';
+import { useContext, useRef, useEffect, useCallback, useLayoutEffect } from 'react';
 import MyContext from "../MyContext"
 import Interactive from "../components/Interactive"
 import Timeline from "../components/Timeline"
 import About from "../components/about"
 import Coast from "../components/coast"
 import Population from "../components/population"
+
 
 
 function BlogPostTemplate ({ data: { post } }) {
@@ -29,13 +30,14 @@ function BlogPostTemplate ({ data: { post } }) {
   const covRef = useRef(null);
   const frameRef = useRef(null);
   const aboveRef = useRef(null);
+  const headRef = useRef(null);
   const [first, setFirst] = useState(true);
   const [isVisible, setIsVisible] = useState(true);
   const [isHovered, setIsHovered] = useState(false);
   const [strI, setStrI] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
 
-
+  
 
 
   const handleMouseEnter = () => {
@@ -236,8 +238,6 @@ useEffect(() => {
 }, []);
 
   useEffect(() => {
-    
-
     const handleScroll = () => {
       const div = covRef.current;
 
@@ -344,7 +344,7 @@ useEffect(() => {
     <main>
     {/* <Seo title={post.title} description={post.excerpt} /> */}
     {isVisible && <Navbar strI={strI}/>}
-    <HeaderImg title={post.title} tagline={parse(post.excerpt)} theme={storyTeam.theme} />
+    <HeaderImg ref={headRef} title={post.title} tagline={parse(post.excerpt)} theme={storyTeam.theme} />
 
     {storyTeam.theme ? <><div className="post-grid" id="stry">
       <div className="l-mar"></div>

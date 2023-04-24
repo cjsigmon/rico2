@@ -74,14 +74,11 @@ function Interactive({ title }) {
 
                   <div id="abt-drug-cont">
                     <div id="drugname">
-                      <h5 ref={nameRef} id="drugname-title">Oxycodone</h5>
-                      <p ref={subRef}>C<sub>18</sub>H<sub>21</sub>NO<sub>4</sub> | Density: ~1.4g/mL</p>
+                      <h5 ref={nameRef} id="drugname-title"></h5>
+                      <p ref={subRef}></p>
                     </div>
                     <div id="fact-graf">
-                      <p ref={descRef}>About 80mg / 57.14mL is lethal. Prescription opioids account for most overdoses. And oxycodone is one of the most common prescription opioids, being 
-                        found in the drugs OxyContin and Percocet. According to Delphi 
-                        Behavioral Health Group, the typical overdose is 80mg; however, many
-                         factors—like weight and previous prescriptions—affect tolerance.
+                      <p ref={descRef}>
                       </p>
                     </div>
                   </div>
@@ -110,7 +107,7 @@ function Interactive({ title }) {
                   </div>
 
                   <div id="btn-cont">
-                    <button autoFocus onClick={handleOx}>
+                    <button onClick={handleOx}>
                       <div className="sq"></div>
                       <p className="btn-text">OXYCODONE</p>
                     </button>
