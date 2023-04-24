@@ -44,7 +44,8 @@ import yondi from '../video-headshot/YondiHS.mp4';
 
 
 
-export default function About() {
+export default function About(props) {
+    const { strI } = props;
     const [hidRep, setHidRep] = useState(false);
     const [hidPho, setHidPho] = useState(false);
     const [hidDes, setHidDes] = useState(false);
@@ -52,6 +53,13 @@ export default function About() {
     const [hidAdp, setHidAdp] = useState(false);
     const [hidCon, setHidCon] = useState(false);
     const [hidCoach, setHidCoach] = useState(false);
+    const [ english, setEnglish ] = useState(true);
+
+    useEffect(() => {
+        if (strI == 12) {
+          setEnglish(false);
+        } 
+    }, [english]);
     
 
     const handleAllClick = () => {
@@ -135,14 +143,21 @@ export default function About() {
     
     return (
         <div className="abt-wrapper">
-            <p className="abt-body-t">
+            {english ?  <p className="abt-body-t">
                 Hello there! We are a group of storytellers consisting of student videographers and photographers, web designers and developers, reporters and faculty members. Our shared mission is to amplify the voices of Puerto Ricans, and to share their stories of strength and hope through our multimedia project: Isla de Fuerza.
             <br></br><br></br>
 In 2018, we reported on the Aftermath of Hurricane Maria. Five years later, we’ve returned to continue learning about the culture and people of the island through the lenses of power, community, governance, environment and healthcare. We hope to inspire others to join the conversation through the stories we’ve gathered.
             <br></br><br></br>
 As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism and Media, we have the privilege of learning firsthand about the rewards and challenges of reporting on diverse cultures. As aspiring journalists, we are dedicated to collaborating as a team to deliver impactful multimedia work that sheds light on the stories shaping our global community.
-
-            </p>
+            </p> : <p className="abt-body-t">
+            ¡Hola! Somos un grupo de narradores compuesto por estudiantes de fotografía y video, diseñadores y desarrolladores web, reporteros y profesores. Nuestra misión compartida es amplificar las voces de los puertorriqueños y compartir sus historias de fortaleza y esperanza a través de nuestro proyecto multimedia: Isla de Fuerza.
+            <br></br><br></br>
+            En 2018, informamos sobre las secuelas del huracán María. Cinco años después, hemos regresado para continuar aprendiendo sobre la cultura y la gente de la isla a través de los lentes del poder, la comunidad, la gobernanza, el medio ambiente y la atención médica. Esperamos inspirar a otros a unirse a la conversación a través de las historias que hemos recopilado.
+            <br></br><br></br>
+            Como parte de un proyecto anual de la Escuela de Periodismo y Medios Hussman de UNC-Chapel Hill, tenemos el privilegio de aprender de primera mano sobre las recompensas y los desafíos de informar sobre diversas culturas. Como aspirantes a periodistas, estamos dedicados a colaborar como equipo para ofrecer un trabajo multimedia impactante que arroje luz sobre las historias que dan forma a nuestra comunidad global.
+                </p>}
+    
+           
             <div class="circle-container">
                 <div className="circle yellow"></div>
                 <div className="circle orange"></div>

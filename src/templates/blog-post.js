@@ -105,7 +105,7 @@ if (first) {
         setStrI(3);
       }
       break;
-    case 'PASO A PASO':
+    case 'STEP BY STEP':
       storyTeam.reporter = 'Preston Fore';
       storyTeam.video1 = 'Gerard Millman';
       storyTeam.video2 = 'Lauren Cmiel';
@@ -186,7 +186,7 @@ if (first) {
         setStrI(8);
       }
       break;
-    case 'FUERZA':
+    case 'PASO A PASO':
       storyTeam.reporter = 'Preston Fore';
       storyTeam.video1 = 'Gerard Millman';
       storyTeam.video2 = 'Lauren Cmiel';
@@ -216,6 +216,18 @@ if (first) {
         setStrI(10);
       }
       break;
+      case 'ABOUT':
+      if (strI !== 11) {
+        setStrI(11);
+      }
+      break;
+      case 'SOBRE':
+      if (strI !== 12) {
+        setStrI(12);
+      }
+      break;
+
+
       setFirst(false);
   }
 }
@@ -343,7 +355,7 @@ useEffect(() => {
       <div className="r-stry-mar"></div>
       <div className="r-mar"></div>
     </div>
-    <ReadMore exclude={post.title} eng={myBoolean}/> </> : <About />}
+    <ReadMore exclude={post.title} eng={myBoolean}/> </> : <About strI={strI} />}
     
     <Footer path={altSlug} />
     </main>

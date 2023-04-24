@@ -18,8 +18,8 @@ function Navbar (props) {
   const [hamMenu, setHamMenu] = useState(false);
   const [first, setFirst] = useState(true);
   const { myBoolean, setMyBoolean } = useContext(MyContext);
+  const [english, setEnglish ] = useState(true);
 
- 
 
   const data = useStaticQuery(graphql`
     {
@@ -33,11 +33,6 @@ function Navbar (props) {
     }
     `)
         const { allWpPost } = data; 
- 
-
-
-
-
   const navbarStyles = {
     transition: 'top 0.7s'
   }
@@ -52,13 +47,21 @@ function Navbar (props) {
     setPrevScrollPos(currentScrollPos);
   };
 
+  useEffect(() => {
+      if (strI == 12 || (strI > 5 && strI < 11)) {
+        setEnglish(false);
+      } else if (strI == 0) {
+        // setMyBoolean(!myBoolean);
+      }
+  }, [english]);
+
   // new useEffect:
   useEffect(() => {
     if (first) {
       console.log("page is " +strI);
       setFirst(false);
     }
-    
+
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -67,7 +70,56 @@ function Navbar (props) {
 
 
   const handleButtonClick = () => {
-    setMyBoolean(!myBoolean);
+    switch(strI) {
+      case 1:
+        window.location.href = "/paso-a-paso-esp";
+        break;
+
+        case 2:
+          window.location.href = "/comunidad";
+          break;
+
+          case 3:
+        window.location.href = "/gobernancia";
+        break;
+
+        case 4:
+        window.location.href = "/ambiente";
+        break;
+
+        case 5:
+        window.location.href = "/salud";
+        break;
+
+        case 6:
+        window.location.href = "/paso-a-paso";
+        break;
+
+        case 7:
+        window.location.href = "/community";
+        break;
+
+        case 8:
+        window.location.href = "/governance";
+        break;
+
+        case 9:
+        window.location.href = "/against-the-current";
+        break;
+
+        case 10:
+        window.location.href = "/road-to-recovery";
+        break;
+
+        case 11:
+          window.location.href = "/sobre";
+          break;
+
+          case 12:
+          window.location.href = "/about";
+          break;
+    }
+    
   };
 
   const navRef = useRef(null);
@@ -113,18 +165,18 @@ function Navbar (props) {
 
             <div ref={strsRef} id="stry-links">
               
-                  <Link class="nav-elem-a" to={myBoolean ? "/paso-a-paso" : "/paso-a-paso-esp"}><h4 class="nav-elem">{myBoolean? "PASO A PASO" : "Paso a paso"}</h4></Link>
-                  <Link class="nav-elem-a" to={myBoolean ? "/community" : "/comunidad"}><h4 class="nav-elem">{myBoolean? "COMMUNITY" : "COMUNIDAD"}</h4></Link>
-                  <Link class="nav-elem-a" to={myBoolean ? "/governance" : "/gobernancia"}><h4 class="nav-elem">{myBoolean? "GOVERNANCE" : "GOBERNANCIA"}</h4></Link>
-                  <Link class="nav-elem-a" to={myBoolean ? "/against-the-current" : "/ambiente"}><h4 class="nav-elem">{myBoolean? "AGAINST THE CURRENT" : "AMBIENTE"}</h4></Link>
-                  <Link class="nav-elem-a" to={myBoolean ? "/road-to-recovery" : "/salud"}><h4 class="nav-elem">{myBoolean? "ROAD TO RECOVERY" : "SALUD"}</h4></Link>
+                  <Link class="nav-elem-a" to={english ? "/paso-a-paso" : "/paso-a-paso-esp"}><h4 class="nav-elem">{english? "STEP BY STEP" : "PASO A PASO"}</h4></Link>
+                  <Link class="nav-elem-a" to={english ? "/community" : "/comunidad"}><h4 class="nav-elem">{english? "COMMUNITY" : "COMUNIDAD"}</h4></Link>
+                  <Link class="nav-elem-a" to={english ? "/governance" : "/gobernancia"}><h4 class="nav-elem">{english? "GOVERNANCE" : "GOBERNANCIA"}</h4></Link>
+                  <Link class="nav-elem-a" to={english ? "/against-the-current" : "/ambiente"}><h4 class="nav-elem">{english? "AGAINST THE CURRENT" : "AMBIENTE"}</h4></Link>
+                  <Link class="nav-elem-a" to={english ? "/road-to-recovery" : "/salud"}><h4 class="nav-elem">{english? "ROAD TO RECOVERY" : "SALUD"}</h4></Link>
             </div>
 
             <div class="gap"></div>
               
             <div ref={abtRef} className="abt-side">
-              <Link class="nav-elem-a" to={myBoolean ? "/about" : "/sobre"}><h4 class="nav-elem">{myBoolean? "ABOUT" : "SOBRE"}</h4></Link>
-              <button onClick={handleButtonClick} id="translation-box"><div id={myBoolean ? "l-box" : "r-box"}>EN</div><div id={myBoolean ? "r-box" : "l-box"}>ES</div></button>
+              <Link class="nav-elem-a" to={english ? "/about" : "/sobre"}><h4 class="nav-elem">{english? "ABOUT" : "SOBRE"}</h4></Link>
+              <button onClick={handleButtonClick} id="translation-box"><div id={english ? "l-box" : "r-box"}>EN</div><div id={english ? "r-box" : "l-box"}>ES</div></button>
             </div>
           
     </div>
