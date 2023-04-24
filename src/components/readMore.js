@@ -36,15 +36,15 @@ export default function ReadMore(props) {
               break;
       
               case 2:
-                setExclude("COMMUNITY");
+                setExclude("A CULTURAL ANCHOR");
                 break;
       
                 case 3:
-                    setExclude("GOVERNANCE");
+                    setExclude("RESISTANT, NOT RESILIENT");
               break;
       
               case 4:
-                setExclude("AGAINST THE CURRENT");
+                setExclude("ERODING AWAY");
               break;
       
               case 5:
@@ -64,7 +64,7 @@ export default function ReadMore(props) {
               break;
       
               case 9:
-                setExclude("AMBIENTE");
+                setExclude("LA PEQUEÑA GUERRA");
               break;
       
               case 10:
@@ -84,19 +84,21 @@ export default function ReadMore(props) {
                 <div class="circle blue"></div>
             </div>
 
-            <h2>MORE FROM ISLA DE FUERZA</h2>
+            {myBoolean ? <h2>MORE FROM ISLA DE FUERZA</h2>
+            : <h2>MÁS DE ISLA DE FUERZA</h2>}
+           
 
             {myBoolean ? <div className="more-thumbs">
                 {exclude === 'STEP BY STEP' ? <></> :  <a href={powLink}><div className="readmore-hold"><img src={powImage}></img><h4 id="powread">STEP BY STEP</h4></div></a>}
-                {exclude === 'COMMUNITY' ? <></> :  <a href={comLink}><div className="readmore-hold"><img src={comImage}></img><h4 id="comread">COMMUNITY</h4></div></a>}
-                {exclude === 'GOVERNANCE' ? <></> :  <a href={govLink}><div className="readmore-hold"><img src={govImage}></img><h4 id="govread">GOVERNANCE</h4></div></a>}
-                {exclude === 'AGAINST THE CURRENT' ? <></> :  <a href={envLink}><div className="readmore-hold"><img src={envImage}></img><h4 id="envread">AGAINST THE CURRENT</h4></div></a>}
+                {exclude === 'A CULTURAL ANCHOR' ? <></> :  <a href={comLink}><div className="readmore-hold"><img src={comImage}></img><h4 id="comread">A CULTURAL ANCHOR</h4></div></a>}
+                {exclude === 'RESISTANT, NOT RESILIENT' ? <></> :  <a href={govLink}><div className="readmore-hold"><img src={govImage}></img><h4 id="govread">RESISTANT, NOT RESILIENT</h4></div></a>}
+                {exclude === 'ERODING AWAY' ? <></> :  <a href={envLink}><div className="readmore-hold"><img src={envImage}></img><h4 id="envread">ERODING AWAY</h4></div></a>}
                 {exclude === 'ROAD TO RECOVERY' ? <></> :  <a href={healthLink}><div className="readmore-hold"><img src={healthImage}></img><h4 id="hearead">ROAD TO RECOVERY</h4></div></a>}
             </div> : <div className="more-thumbs">
                 {exclude === 'PASO A PASO' ? <></> :  <a href={fueLink}><div className="readmore-hold"><img src={powImage}></img><h4 id="powread">PASO A PASO</h4></div></a>}
                 {exclude === 'COMUNIDAD' ? <></> :  <a href={cmdLink}><div className="readmore-hold"><img src={comImage}></img><h4 id="comread">COMUNIDAD</h4></div></a>}
                 {exclude === 'GOBERNANCIA' ? <></> :  <a href={gobLink}><div className="readmore-hold"><img src={govImage}></img><h4 id="govread">GOBERNANCIA</h4></div></a>}
-                {exclude === 'AMBIENTE' ? <></> :  <a href={ambLink}><div className="readmore-hold"><img src={envImage}></img><h4 id="envread">AMBIENTE</h4></div></a>}
+                {exclude === 'AMBIENTE' ? <></> :  <a href={ambLink}><div className="readmore-hold"><img src={envImage}></img><h4 id="envread">LA PEQUEÑA GUERRA</h4></div></a>}
                 {exclude === 'SALUD' ? <></> :  <a href={salLink}><div className="readmore-hold"><img src={healthImage}></img><h4 id="hearead">SALUD</h4></div></a>}
             </div> }
             

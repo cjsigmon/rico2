@@ -123,7 +123,7 @@ const HomePage = () =>  {
               </Link>
             </div>
             <div className={"left-title"}>
-              <Link to={ "/paso-a-paso-esp" }><h1 className="home-title" id={"POWER-home-title"}>FUERZA</h1></Link>
+              <Link to={ "/paso-a-paso-esp" }><h1 className="home-title" id={"POWER-home-title"}>PASO A PASO</h1></Link>
               <p className={"home-subtitle lsub"} id={"POWER-subtitle"}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eir mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam volu</p>
             </div>
           </div>
@@ -158,7 +158,7 @@ const HomePage = () =>  {
               </Link>
             </div>
             <div className={"right-title"}>
-              <Link to={ "/ambiente" }><h1 className="home-title" id={"ENVIRONMENT-home-title"}>AMBIENTE</h1></Link>
+              <Link to={ "/ambiente" }><h1 className="home-title" id={"ENVIRONMENT-home-title"}>LA PEQUEÑA GUERRA</h1></Link>
               <p className={"home-subtitle rsub"} id={"ENVIRONMENT-subtitle"}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eir mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam volu</p>
             </div>
           </div>

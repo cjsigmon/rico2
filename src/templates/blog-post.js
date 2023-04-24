@@ -58,7 +58,7 @@ function BlogPostTemplate ({ data: { post } }) {
   var color = {};
 if (first) {
   switch(post.title) {
-    case ('AGAINST THE CURRENT'):
+    case ('ERODING AWAY'):
       storyTeam.reporter = 'Thomas Moody-Jones';
       storyTeam.photo = 'Dylan Thiessen';
       storyTeam.video1 = 'Ann Licharew';
@@ -76,7 +76,7 @@ if (first) {
       }
       
       break;
-    case ('COMMUNITY'):
+    case ('A CULTURAL ANCHOR'):
       storyTeam.reporter = 'Liv Reilly';
       storyTeam.photo = 'Anna Connors';
       storyTeam.video1 = 'Cynthia Liu';
@@ -93,7 +93,7 @@ if (first) {
       }
 
       break;
-    case 'GOVERNANCE':
+    case 'RESISTANT, NOT RESILIENT':
       storyTeam.reporter = 'Emily Gajda';
       storyTeam.photo = 'Samantha Lewis';
       storyTeam.video1 = 'Allyson Rabon';
@@ -144,7 +144,7 @@ if (first) {
       }
       break;
 
-      case 'AMBIENTE':
+      case 'LA PEQUEÑA GUERRA':
       storyTeam.reporter = 'Thomas Moody-Jones';
       storyTeam.photo = 'Dylan Thiessen';
       storyTeam.video1 = 'Ann Licharew';
@@ -325,7 +325,7 @@ useEffect(() => {
         return <Interactive title={node.attribs.id}></Interactive>;
       }
       else if (node.attribs && node.attribs.class === "replace-section") {
-        return <Section title={node.children[0].data}></Section>;
+        return <Section title={node.children[0].data} team={storyTeam.theme}></Section>;
       }
       else if (node.attribs && node.attribs.class === "replace-quote") {
         return <PullQuote what={node.children[0].data} who={node.attribs.id} color={color.color} />

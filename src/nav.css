@@ -55,9 +55,10 @@
     margin: 5%;
     color: #FFFFFF;
     font-weight: bold;
-    min-width: max-content;
+    min-width: 8.4vw;
     position: relative;
-    display: inline-block;
+    display: inline-flex;
+    text-align: center;
     margin: 10% 21% 0 4%;
 
 }

@@ -165,10 +165,10 @@ function Navbar (props) {
 
             <div ref={strsRef} id="stry-links">
               
-                  <Link class="nav-elem-a" to={english ? "/paso-a-paso" : "/paso-a-paso-esp"}><h4 class="nav-elem">{english? "STEP BY STEP" : "PASO A PASO"}</h4></Link>
-                  <Link class="nav-elem-a" to={english ? "/community" : "/comunidad"}><h4 class="nav-elem">{english? "COMMUNITY" : "COMUNIDAD"}</h4></Link>
-                  <Link class="nav-elem-a" to={english ? "/governance" : "/gobernancia"}><h4 class="nav-elem">{english? "GOVERNANCE" : "GOBERNANCIA"}</h4></Link>
-                  <Link class="nav-elem-a" to={english ? "/against-the-current" : "/ambiente"}><h4 class="nav-elem">{english? "AGAINST THE CURRENT" : "AMBIENTE"}</h4></Link>
+                  <Link class="nav-elem-a" to={english ? "/paso-a-paso" : "/paso-a-paso-esp"}><div className="wrap-nav"><h4 class="nav-elem">{english? "STEP BY STEP" : "PASO A PASO"}</h4></div></Link>
+                  <Link class="nav-elem-a" to={english ? "/community" : "/comunidad"}><h4 class="nav-elem">{english? "A CULTURAL ANCHOR" : "COMUNIDAD"}</h4></Link>
+                  <Link class="nav-elem-a" to={english ? "/governance" : "/gobernancia"}><h4 class="nav-elem">{english? "RESISTANT, NOT RESILIENT" : "GOBERNANCIA"}</h4></Link>
+                  <Link class="nav-elem-a" to={english ? "/against-the-current" : "/ambiente"}><h4 class="nav-elem">{english? "ERODING AWAY" : "LA PEQUEÑA GUERRA"}</h4></Link>
                   <Link class="nav-elem-a" to={english ? "/road-to-recovery" : "/salud"}><h4 class="nav-elem">{english? "ROAD TO RECOVERY" : "SALUD"}</h4></Link>
             </div>
 
