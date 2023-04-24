@@ -33,6 +33,10 @@ function BlogPostTemplate ({ data: { post } }) {
   const [isVisible, setIsVisible] = useState(true);
   const [isHovered, setIsHovered] = useState(false);
   const [strI, setStrI] = useState(0);
+  const [isLoading, setIsLoading] = useState(true);
+
+
+
 
   const handleMouseEnter = () => {
     setIsVisible(false);
@@ -215,9 +219,13 @@ if (first) {
       setFirst(false);
   }
 }
-  
+useEffect(() => {
+  setIsLoading(false);
+}, []);
 
   useEffect(() => {
+    
+
     const handleScroll = () => {
       const div = covRef.current;
 
@@ -314,6 +322,10 @@ if (first) {
 
 
   const componentTree = Parser(htmlString, options);
+
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <MyContext.Provider value={{ myBoolean, setMyBoolean }}>

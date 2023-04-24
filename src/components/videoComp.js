@@ -138,30 +138,30 @@ export default function VideoComp({ left, link, color }) {
 
 
   
-  useEffect(() => {
-    const player = playerRef.current.getInternalPlayer();
-    const element = elementRef.current;
+  // useEffect(() => {
+  //   const player = playerRef.current.getInternalPlayer();
+  //   const element = elementRef.current;
 
-    const handleFullscreenChange = () => {
-      if (document.fullscreenElement === player) {
-        element.style.display = 'block';
-      } else {
-        element.style.display = 'none';
-      }
-    };
+  //   const handleFullscreenChange = () => {
+  //     if (document.fullscreenElement === player) {
+  //       element.style.display = 'block';
+  //     } else {
+  //       element.style.display = 'none';
+  //     }
+  //   };
 
-    if (player) {
-      player.addEventListener('fullscreenchange', handleFullscreenChange);
-    }
+  //   if (player) {
+  //     player.addEventListener('fullscreenchange', handleFullscreenChange);
+  //   }
 
 
-    return () => {
-      if (player) {
-        player.removeEventListener('fullscreenchange', handleFullscreenChange);
-      }
+  //   return () => {
+  //     if (player) {
+  //       player.removeEventListener('fullscreenchange', handleFullscreenChange);
+  //     }
       
-    };
-  }, []);
+  //   };
+  // }, []);
 
 
     return (
