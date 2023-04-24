@@ -41,6 +41,7 @@ import sam from '../video-headshot/SamanthaHS.mp4';
 import taylor from '../video-headshot/TaylorHS.mp4';
 import thomas from '../video-headshot/ThomasHS.mp4';
 import yondi from '../video-headshot/YondiHS.mp4';
+import { set } from "lodash";
 
 
 
@@ -54,10 +55,26 @@ export default function About(props) {
     const [hidCon, setHidCon] = useState(false);
     const [hidCoach, setHidCoach] = useState(false);
     const [ english, setEnglish ] = useState(true);
+    const [ coach, setCoach ] = useState("Coach");
+    const [ adPR, setAdPR ] = useState("Ad/PR");
+    const [ repp, setRepp ] = useState("Reporter");
+    const [ photo, setPhoto ] = useState("Photo");
+    const [ dez, setDez ] = useState("Design");
+    const [ dezDev, setDezDev ] = useState("Design/Development");
+    const [ devv, setDevv ] = useState("Development");
+    const [ conn, setConn ] = useState("Contributor");
 
     useEffect(() => {
         if (strI == 12) {
           setEnglish(false);
+          setCoach("Entrenamiento");
+          setAdPR("Relaciones Públicas");
+          setRepp("Reportando");
+          setPhoto("Fotografía");
+          setDez("Diseño");
+          setDezDev("Diseño/Desarrollo");
+          setDevv("Desarrollo");
+          setConn("Contribución");
         } 
     }, [english]);
     
@@ -165,10 +182,12 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                 <div className="circle cyan"></div>
                 <div className="circle blue"></div>
             </div>
+            {english ?  <h2 id="meet-team">Meet the Team</h2> :
+            <h2 id="meet-team">Conocer al Equipo</h2>}
 
-            <h2 id="meet-team">Meet the Team</h2>
+           
             <div id="cards-sect">
-                <div id="role-btns">
+                {english ? <div id="role-btns">
                     <button className="sort" id="all-btn" onClick={handleAllClick}><b>ALL</b></button>
                     <button className="sort" onClick={handleRepClick}>Reporting</button>
                     <button className="sort" onClick={handlePhoClick}>Photo & Video</button>
@@ -177,7 +196,19 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                     <button className="sort" onClick={handleAdpClick}>Ad/PR</button>
                     <button className="sort" onClick={handleCoachClick}>Coaches</button>
                     <button className="sort" onClick={handleConClick}>Contributors</button>
-                </div>
+                </div>: 
+                <div id="role-btns">
+                <button className="sort" id="all-btn" onClick={handleAllClick}><b>ALL</b></button>
+                <button className="sort" onClick={handleRepClick}>Reportando</button>
+                <button className="sort" onClick={handlePhoClick}>Foto & Video</button>
+                <button className="sort" onClick={handleDesClick}>Diseño</button>
+                <button className="sort" onClick={handleDevClick}>Desarrollo</button>
+                <button className="sort" onClick={handleAdpClick}>Publicidad/Relaciones Publicas</button>
+                <button className="sort" onClick={handleCoachClick}>Entrenamiento</button>
+                <button className="sort" onClick={handleConClick}>Contribuyentes</button>
+            </div>}
+
+                
                 <div id="cards-holder">
 
                  
@@ -194,7 +225,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             src={alex}/>
                         </div>
                         <h6 className="name-here">Alex Kormann</h6>
-                        <p className="team-role">Coach</p>
+                        <p className="team-role">{coach}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -232,7 +263,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={amanda}/></div>
                         <h6 className="name-here">Amanda Jiménez Berríos</h6>
-                        <p className="team-role">Contributor</p>
+                        <p className="team-role">{conn}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -286,7 +317,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={anna}/></div>
                         <h6 className="name-here">Anna Connors</h6>
-                        <p className="team-role">Photo</p>
+                        <p className="team-role">{photo}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -304,7 +335,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={bella}/></div>
                         <h6 className="name-here">Bella Cankurtaran</h6>
-                        <p className="team-role">Ad/PR</p>
+                        <p className="team-role">{adPR}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -322,7 +353,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={brooke}/></div>
                         <h6 className="name-here">Brooke Fisher</h6>
-                        <p className="team-role">Coach</p>
+                        <p className="team-role">{coach}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -340,7 +371,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={caleb}/></div>
                         <h6 className="name-here">Caleb Sigmon</h6>
-                        <p className="team-role">Development</p>
+                        <p className="team-role">{devv}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -358,7 +389,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={clara}/></div>
                         <h6 className="name-here">Clara Mello</h6>
-                        <p className="team-role">Design</p>
+                        <p className="team-role">{dez}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -394,7 +425,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={dylan}/></div>
                         <h6 className="name-here">Dylan Thiessen</h6>
-                        <p className="team-role">Photo</p>
+                        <p className="team-role">{photo}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -412,7 +443,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={emily}/></div>
                         <h6 className="name-here">Emily Gajda</h6>
-                        <p className="team-role">Reporter</p>
+                        <p className="team-role">{repp}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -448,7 +479,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={florencia}/></div>
                         <h6 className="name-here">Florencia Loncán</h6>
-                        <p className="team-role">Ad/PR</p>
+                        <p className="team-role">{adPR}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -484,7 +515,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={gina}/></div>
                         <h6 className="name-here">Gina Flow</h6>
-                        <p className="team-role">Design</p>
+                        <p className="team-role">{dez}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -502,7 +533,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={giuli}/></div>
                         <h6 className="name-here">Giuli Hoffmann</h6>
-                        <p className="team-role">Design</p>
+                        <p className="team-role">{dez}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -520,7 +551,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={heather}/></div>
                         <h6 className="name-here">Heather Diehl</h6>
-                        <p className="team-role">Photo</p>
+                        <p className="team-role">{photo}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -538,7 +569,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={ivanna}/></div>
                         <h6 className="name-here">Ivanna</h6>
-                        <p className="team-role">Contributor</p>
+                        <p className="team-role">{conn}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -556,7 +587,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={jacob}/></div>
                         <h6 className="name-here">Jacob Turner</h6>
-                        <p className="team-role">Design/Dev</p>
+                        <p className="team-role">{dezDev}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -592,7 +623,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={prstud}/></div>
                         <h6 className="name-here">Karina Torres Torres</h6>
-                        <p className="team-role">Contributor</p>
+                        <p className="team-role">{conn}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -628,7 +659,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={liana}/></div>
                         <h6 className="name-here">Liana Pinner</h6>
-                        <p className="team-role">Trip planner</p>
+                        <p className="team-role">{coach}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -646,7 +677,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={liv}/></div>
                         <h6 className="name-here">Liv Reilly</h6>
-                        <p className="team-role">Reporter</p>
+                        <p className="team-role">{repp}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -664,7 +695,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={lucas}/></div>
                         <h6 className="name-here">Lucas Thomae</h6>
-                        <p className="team-role">Reporter</p>
+                        <p className="team-role">{repp}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -682,7 +713,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={marivi}/></div>
                         <h6 className="name-here">Marivi</h6>
-                        <p className="team-role">Contributor</p>
+                        <p className="team-role">{conn}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -700,7 +731,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={nina}/></div>
                         <h6 className="name-here">Nina Scott</h6>
-                        <p className="team-role">Design/Dev</p>
+                        <p className="team-role">{dezDev}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -718,7 +749,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={pat}/></div>
                         <h6 className="name-here">Patrick Davison</h6>
-                        <p className="team-role">Coach</p>
+                        <p className="team-role">{coach}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -736,7 +767,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={preston}/></div>
                         <h6 className="name-here">Preston Fore</h6>
-                        <p className="team-role">Reporter</p>
+                        <p className="team-role">{repp}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -772,7 +803,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={ryan}/></div>
                         <h6 className="name-here">Ryan Thornburg</h6>
-                        <p className="team-role">Coach</p>
+                        <p className="team-role">{coach}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -790,7 +821,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={sam}/></div>
                         <h6 className="name-here">Samantha Lewis</h6>
-                        <p className="team-role">Photo</p>
+                        <p className="team-role">{photo}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -827,7 +858,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={thomas}/></div>
                         <h6 className="name-here">Thomas Moody-Jones</h6>
-                        <p className="team-role">Reporter</p>
+                        <p className="team-role">{repp}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -845,7 +876,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             onMouseLeave={handleMouseOut}
                             src={yondi}/></div>
                         <h6 className="name-here">Yondy Agosto García</h6>
-                        <p className="team-role">Contributor</p>
+                        <p className="team-role">{conn}</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>

@@ -37,13 +37,9 @@ const HomePage = () =>  {
               <div className="l-mar"></div>
               <div></div>
               <div id="main-about" className="post-text">
-                
-                  <h2 className="main-about-title">{myBoolean? "ABOUT" : "SOBRE"}</h2>
-                  
-                  
+                  {/* <h2 className="main-about-title">{myBoolean? "ABOUT" : "SOBRE"}</h2>
                   <p>{myBoolean? "This site encompasses 5 multimedia documentaries about Puerto Rico—its people, problems and passions. It was created by a group of 30 journalism students at UNC-Chapel Hill with help from dozens of sources, local producers and professional coaches." : "Span about"}
-                  </p>
-
+                  </p> */}
               </div>
               <div className="r-stry-mar"></div>
               <div className="r-mar"></div>
