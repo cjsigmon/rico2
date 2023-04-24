@@ -25,6 +25,25 @@ exports.createPages = async gatsbyUtilities => {
 
 }
 
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    module: {
+      rules: [
+        {
+          test: /\.html$/,
+          use: {
+            loader: 'html-loader',
+            options: {
+              minimize: true,
+            },
+          },
+        },
+      ],
+    },
+  });
+};
+
+
 /**
  * This function creates all the individual blog pages in this site
  */
