@@ -20,6 +20,7 @@ import Timeline from "../components/Timeline"
 import About from "../components/about"
 import Coast from "../components/coast"
 import Population from "../components/population"
+import Book from "../components/book"
 
 
 
@@ -306,6 +307,9 @@ useEffect(() => {
       }
       else if (node.attribs && node.attribs.class === "replace-gall") {
         return photoDiv;
+      }
+      else if (node.attribs && node.attribs.class === "replace-book") {
+        return <Book />;
       }
       else if (node.attribs && node.attribs.class === "replace-pop") {
         return <Population />
