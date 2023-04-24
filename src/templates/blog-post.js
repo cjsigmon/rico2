@@ -21,6 +21,7 @@ import About from "../components/about"
 import Coast from "../components/coast"
 import Population from "../components/population"
 import Book from "../components/book"
+import Telly from "../components/telly"
 
 
 
@@ -307,6 +308,9 @@ useEffect(() => {
       }
       else if (node.attribs && node.attribs.class === "replace-book") {
         return <Book />;
+      }
+      else if (node.attribs && node.attribs.class === "replace-telly") {
+        return <Telly />
       }
       else if (node.attribs && node.attribs.class === "replace-pop") {
         return <Population />

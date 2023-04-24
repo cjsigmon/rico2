@@ -7,6 +7,7 @@
  */
 
 module.exports = {
+
   
   siteMetadata: {
     title: "Isla de Fuerza",
@@ -97,3 +98,4 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
+

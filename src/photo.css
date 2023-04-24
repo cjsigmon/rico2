@@ -140,7 +140,14 @@
   }
   .b3 {
     background-image:url("https://picsum.photos/500/1080");
+    position: sticky;
+    top: 0;
   }
+
+#book-container {
+  position: sticky;
+  top: 0;
+}
 
   .drrk > img {
     box-shadow: 0px 0px 550px 150px rgb(0, 0, 0);
