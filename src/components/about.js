@@ -41,6 +41,7 @@ import sam from '../video-headshot/SamanthaHS.mp4';
 import taylor from '../video-headshot/TaylorHS.mp4';
 import thomas from '../video-headshot/ThomasHS.mp4';
 import yondi from '../video-headshot/YondiHS.mp4';
+import amandaPoster from '../img/headshot-stills/amanda-still.png';
 import { set } from "lodash";
 
 
@@ -261,7 +262,9 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             preload="metadata"
                             muted={true}
                             onMouseOver={event => event.target.play()}
-                            onMouseLeave={handleMouseOut}
+                            onMouseLeave={event => {event.target.pause();
+                                event.target.currentTime = 3;} }
+                            poster={amandaPoster}
                             src={amanda}/></div>
                         <h6 className="name-here">Amanda Jiménez Berríos</h6>
                         <p className="team-role">{conn}</p>
