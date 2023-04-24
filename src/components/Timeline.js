@@ -65,7 +65,7 @@ const myArray = [
   { yr: '2017 (September)', img: t2017_h, cred: "Photo courtesy of Picryl, 2017", desc: 'Maria, a category 4 hurricane, makes landfall on the island, causing $90 billion in damages and over 100,000 residents to emigrate.'},
   { yr: '2020', img: t2017_b, cred: "Photo courtesy of Flickr, 2014.", desc: 'A term change in the Financial Oversight and Management Board replaces half of the members, shifting its main goal from debt restructuring to stricter financial oversight.'},
   { yr: '2022', img: t2022, cred: "Photo courtesy of Samantha Lewis, 2023.", desc: 'The government of Puerto Rico formally exits bankruptcy, meaning it’ll resume payments to bondholders and settle claims filed by residents and businesses alike.'},
-  { yr: 'Sources', img: before_1493, desc: ' - https://www.history.com/topics/us-states/puerto-rico-history https://grupocne.org/2020/10/15/promesas-new-board/ https://www.nps.gov/nr/travel/prvi/pr7.htm https://www.loc.gov/rr/hispanic/1898/slaves.html https://www.pbs.org/newshour/nation/jones-act-explained-waiving-means-puerto-rico  https://oversightboard.pr.gov/faq/ https://www.nytimes.com/2017/05/03/business/dealbook/puerto-rico-debt.html https://www.mercycorps.org/blog/facts-hurricane-maria-puerto-rico  https://www.nbcnews.com/news/latino/puerto-rico-formally-exits-bankruptcy-largest-public-debt-restructurin-rcna20054 Interviews with María Luisa Cortijo Paper documents from La Biblioteca Nacional de Puerto Rico'}
+  { yr: 'Sources', img: before_1493, desc: ''}
 ];
 
 
@@ -88,6 +88,7 @@ const Chronos = () => {
   const timeBgRef = useRef(null);
   const [blurAmount, setBlurAmount] = useState(0);
   const [darkAmount, setDarkAmount] = useState(100);
+  const srcsRef = useRef(null);
 
   
 
@@ -103,9 +104,12 @@ const Chronos = () => {
     if (year.innerText === 'Sources') {
         imgRef.current.style.display = 'none';
         credRef.current.style.display = 'none';
+        srcsRef.current.style.display = 'block';
+        
     } else {
       imgRef.current.style.display = 'block';
       credRef.current.style.display = 'block';
+      srcsRef.current.style.display = 'none';
     }
 
 
@@ -185,7 +189,47 @@ const Chronos = () => {
             <div className="modal-content">
               <h4 ref={yeaRef}>{myArray[index].yr}</h4>
               <p ref={descRef} >{myArray[index].desc}</p>
-              
+              <div ref={srcsRef} style={{display: "none"}}>
+                <p>
+                 - <a href="https://www.history.com/topics/us-states/puerto-rico-history">https://www.history.com/topics/us-states/puerto-rico-history</a>
+                </p>
+
+                <p>
+                 - <a href="https://www.nbcnews.com/news/latino/puerto-rico-formally-exits-bankruptcy-largest-public-debt-restructurin-rcna20054">https://www.nbcnews.com/news/latino/puerto-rico-formally-exits-bankruptcy-largest-public-debt-restructurin-rcna20054</a>
+                </p>
+
+                <p>
+                 - <a href="https://www.mercycorps.org/blog/facts-hurricane-maria-puerto-rico">https://www.mercycorps.org/blog/facts-hurricane-maria-puerto-rico</a>
+                </p>
+                <p>
+                 - <a href="https://www.nytimes.com/2017/05/03/business/dealbook/puerto-rico-debt.html">https://www.nytimes.com/2017/05/03/business/dealbook/puerto-rico-debt.html</a>
+                </p>
+
+                <p>
+                 - <a href="https://oversightboard.pr.gov/faq/">https://oversightboard.pr.gov/faq/</a>
+                </p>
+
+                <p>
+                 - <a href="https://www.pbs.org/newshour/nation/jones-act-explained-waiving-means-puerto-rico">https://www.pbs.org/newshour/nation/jones-act-explained-waiving-means-puerto-rico</a>
+                </p>
+
+                <p>
+                 - <a href="https://www.loc.gov/rr/hispanic/1898/slaves.html">https://www.loc.gov/rr/hispanic/1898/slaves.html</a>
+                </p>
+
+                <p>
+                 - <a href="https://grupocne.org/2020/10/15/promesas-new-board/">https://grupocne.org/2020/10/15/promesas-new-board/</a>
+                </p>
+                <p>
+                 - <a href="https://www.nps.gov/nr/travel/prvi/pr7.htm">https://www.nps.gov/nr/travel/prvi/pr7.htm</a>
+                </p>
+                <p>
+                Interviews with María Luisa Cortijo
+                </p>
+                <p>
+                Paper documents from La Biblioteca Nacional de Puerto Rico
+                </p>
+              </div>
               <img width="100%" ref={imgRef} src={before_1493}/>
               <p className="credit-mod" ref={credRef} >{myArray[index].cred}</p>
             </div>

@@ -82,7 +82,7 @@ position:absolute;
   left: 50vw;
   transform: translateX(-50%);
   
-  margin-top: 100%;
+  margin-top: 104%;
   width: 80vw;
   height: 9px;
   background-color: #ff660082;
@@ -239,6 +239,7 @@ position:absolute;
 
 /* modal styles */
 #modal-window {
+  overflow: auto;
   position: fixed;
   left: 50vw;
   transform: translateX(-50%);
@@ -540,9 +541,9 @@ button:focus > .sq:not(#srcSq) {
       font-size: 6.5vw;
     }
 
-    .modal-window {
-      height: 55vh;
-      top: -20vh;
+    #modal-window {
+      height: 80vh;
+      top: -11.5vh!important;
     }
     
     .white-desc {
