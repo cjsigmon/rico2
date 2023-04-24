@@ -130,6 +130,10 @@
     display: none;
 }
 
+#l-box:hover, #r-box:hover {
+    cursor: pointer;
+}
+
 
 
 /* FOOTER */

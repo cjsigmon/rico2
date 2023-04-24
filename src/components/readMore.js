@@ -32,43 +32,43 @@ export default function ReadMore(props) {
         switch(strI) {
             
             case 1:
-              exclude = "STEP BY STEP";
+              setExclude("STEP BY STEP");
               break;
       
               case 2:
-                exclude = "COMMUNITY";
+                setExclude("COMMUNITY");
                 break;
       
                 case 3:
-                    exclude = "GOVERNANCE";
+                    setExclude("GOVERNANCE");
               break;
       
               case 4:
-                exclude = "AGAINST THE CURRENT";
+                setExclude("AGAINST THE CURRENT");
               break;
       
               case 5:
-                exclude = "ROAD TO RECOVERY";
+                setExclude("ROAD TO RECOVERY");
               break;
       
               case 6:
-                exclude = "PASO A PASO";
+                setExclude("PASO A PASO");
               break;
       
               case 7:
-                exclude = "COMUNIDAD";
+                setExclude("COMUNIDAD");
               break;
       
               case 8:
-                exclude = "GOBERNANCIA";
+                setExclude("GOBERNANCIA");
               break;
       
               case 9:
-                exclude = "AMBIENTE";
+                setExclude("AMBIENTE");
               break;
       
               case 10:
-                exclude = "SALUD";
+                setExclude("SALUD");
               break;
           } 
     }, []);
