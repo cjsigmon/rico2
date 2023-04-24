@@ -19,10 +19,10 @@ function Interactive({ title }) {
     const handleOx = () => {
       mg = 80;
       mls = 57.14; 
-      gramsRef.current.textContent = '80mg / about 57.14mL';
+      // gramsRef.current.textContent = '80mg / about 57.14mL';
       subRef.current.innerHTML = 'C<sub>18</sub>H<sub>21</sub>NO<sub>4</sub> | Density: ~1.4g/mL';
       nameRef.current.textContent = 'Oxycodone';
-      descRef.current.textContent = 'Prescription opioids account for most overdoses. And oxycodone is one of the most common prescription opioids, being found in the drugs OxyContin and Percocet. According to Delphi Behavioral Health Group, the typical overdose is 80mg; however, many factors—like weight and previous prescriptions—affect tolerance.'
+      descRef.current.textContent = 'About 80mg / 57.14mL is lethal. Prescription opioids account for most overdoses. And oxycodone is one of the most common prescription opioids, being found in the drugs OxyContin and Percocet. According to Delphi Behavioral Health Group, the typical overdose is 80mg; however, many factors—like weight and previous prescriptions—affect tolerance.'
       drugsRef2.current.style.display = 'none';
       drugsRef3.current.style.display = 'none';
       drugsRef.current.style.display = 'block';
@@ -31,10 +31,10 @@ function Interactive({ title }) {
     const handleHer = () => {
       mg = 30;
       mls = 21.43  
-      gramsRef.current.textContent = '30mg / about 21.43mL';
+      // gramsRef.current.textContent = '30mg / about 21.43mL';
       nameRef.current.textContent = 'Heroin     (diacetylmorphine)';
       subRef.current.innerHTML = 'C<sub>21</sub>H<sub>23</sub>NO<sub>5</sub> | Density: ~1.4g/mL'
-      descRef.current.textContent = 'Heroin is an illegal opioid made from morphine. Most users started out by first misusing prescription opioids.';
+      descRef.current.textContent = 'About 30mg / 21.43mL is lethal. Heroin is an illegal opioid made from morphine. Most users started out by first misusing prescription opioids.';
       drugsRef3.current.style.display = 'none';
       drugsRef.current.style.display = 'none';
       drugsRef2.current.style.display = 'block';
@@ -43,10 +43,10 @@ function Interactive({ title }) {
     const handleFen = () => {
       mg = 3;
       mls = 2.72;
-      gramsRef.current.textContent = '2-3mg / about 2.72mL';
+      // gramsRef.current.textContent = '2-3mg / about 2.72mL';
       nameRef.current.textContent = 'Fentanyl';
       subRef.current.innerHTML = 'C<sub>22</sub>H<sub>28</sub>N<sub>2</sub>O | Density: ~1.1g/mL'
-      descRef.current.textContent = 'Fentanyl is the most dangerous drug in the world. It is 50 times more potent than heroin and 100 times stronger than morphine. Just 3mg is enough to kill the average adult man.'
+      descRef.current.textContent = 'About 2-3mg / 2.72mL is lethal. Fentanyl is 50 times more potent than heroin and 100 times stronger than morphine. Just 3mg is enough to kill the average adult.'
       drugsRef2.current.style.display = 'none';
       drugsRef.current.style.display = 'none';
       drugsRef3.current.style.display = 'block';
@@ -106,7 +106,7 @@ function Interactive({ title }) {
                   </div>
 
                   <div id="grams-cont">
-                    <p ref={gramsRef} id="grams">80mg / about 57.14mL</p>
+                    {/* <p ref={gramsRef} id="grams">80mg / about 57.14mL</p> */}
                   </div>
 
                   <div id="btn-cont">
