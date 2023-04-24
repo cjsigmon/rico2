@@ -222,6 +222,7 @@ As part of an annual project by UNC-Chapel Hill’s Hussman School of Journalism
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            id="alex-vid"
                             src={alex}/>
                         </div>
                         <h6 className="name-here">Alex Kormann</h6>

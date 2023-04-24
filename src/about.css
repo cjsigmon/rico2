@@ -10,6 +10,8 @@
     width: 50%;
 }
 
+
+
 /* hey */
     
 
@@ -94,10 +96,10 @@
 
 .pic-box {
     width: 90%;
-    min-height: 60%;
+    min-height: 48%;
     height: auto;
     position: relative;
-    overflow: hidden;
+    overflow:hidden;
 }
 
 .pic-box video {
@@ -109,6 +111,8 @@
   height: 100%;
   object-fit: cover;
   }
+
+
 
 .name-here, .team-role, .socials {
     margin: 5% 0 0 0;
