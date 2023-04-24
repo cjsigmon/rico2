@@ -6,7 +6,7 @@
     //   var wrapper = document.getElementById("wrappa");
     // var scrollyChartDiv = document.querySelector('.scrolly__chart');
     // var scrollyChartIframe = scrollyChartDiv.querySelector('iframe');
-    var miframe = document.getElementById("miframe");
+    // var miframe = document.getElementById("miframe");
       var i = 1;
 
 
@@ -19,7 +19,7 @@
   const windowHeight = document.documentElement.clientHeight || window.innerHeight;
   const scrollPercentage = (scrollTop / (scrollHeight - windowHeight)) * 100;
 
-  if (scrollPercentage > 70) {
+  if (scrollPercentage > 40) {
     console.log('Scroll position is over 40%');
     i = 2;
   } else {
@@ -29,14 +29,11 @@
         
 
         // add color to current step only
-        if (miframe) {
-            const linkHead = 'https://flo.uri.sh/story/1894096/embed#slide-'
-        miframe.src = (linkHead + "" + i);
-        } else {
+      
             var miframe = document.getElementById("miframe");
             const linkHead = 'https://flo.uri.sh/story/1894096/embed#slide-'
-        miframe.src = (linkHead + "" + i);
-        }
+            miframe.src = (linkHead + "" + i);
+       
     
 
         
