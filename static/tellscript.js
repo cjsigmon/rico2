@@ -1,13 +1,7 @@
-
-    //   var scrolly = d3.select("#scrolly__section");
-    //   var chart = scrolly.select(".scrolly__chart");
-    //   var content = scrolly.select(".scrolly__content");
-    //   var step = content.selectAll(".step");
-    //   var wrapper = document.getElementById("wrappa");
-    // var scrollyChartDiv = document.querySelector('.scrolly__chart');
-    // var scrollyChartIframe = scrollyChartDiv.querySelector('iframe');
-    // var miframe = document.getElementById("miframe");
       var i = 1;
+      const linkHead = 'https://flo.uri.sh/story/1894096/embed#slide-'
+
+      
 
 
     
@@ -19,7 +13,7 @@
   const windowHeight = document.documentElement.clientHeight || window.innerHeight;
   const scrollPercentage = (scrollTop / (scrollHeight - windowHeight)) * 100;
 
-  if (scrollPercentage > 40) {
+  if (scrollPercentage > 50) {
     console.log('Scroll position is over 40%');
     i = 2;
   } else {
@@ -31,15 +25,22 @@
         // add color to current step only
       
             var miframe = document.getElementById("miframe");
-            const linkHead = 'https://flo.uri.sh/story/1894096/embed#slide-'
-            miframe.src = (linkHead + "" + i);
-       
-    
-
-        
-      
+            if (miframe) {
+                miframe.src = (linkHead + "" + i);
+            }        
       }
 
     
-      window.addEventListener('scroll', handleScroll);
+      let scrollTimeout;
+window.addEventListener('scroll', () => {
+  // clear any existing timeout
+  clearTimeout(scrollTimeout);
+  var miframe = document.getElementById("miframe");
+  
+  // set a new timeout to delay the handleScroll() function
+  scrollTimeout = setTimeout(() => {
+
+    handleScroll();
+  }, 500); // 500 milliseconds delay
+});
 
