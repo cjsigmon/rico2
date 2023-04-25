@@ -451,6 +451,20 @@
   .photo-frame-container {
     margin-bottom: 60vh;
   }
+
+  .more-thumbs {
+
+  }
+
+  .readmore-hold img {
+    width: 90vw;
+  }
+
+  .readmore-hold h4 {
+    opacity: 1;
+    text-shadow: 1px 1px 1px black;
+  }
+
 }
 
 

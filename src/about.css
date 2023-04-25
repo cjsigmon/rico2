@@ -149,3 +149,27 @@
   .sort:hover::after {
     width: 100%;
   }
+
+
+  @media only screen and (max-width: 450px) {
+    #role-btns {
+        flex-wrap: wrap;
+    }
+
+    .name-here {
+        text-align: center;
+    }
+
+    #role-btns button {
+        font-size: 3vw;
+    }
+
+    #cards-holder {
+        width: 100vw;
+    }
+
+    .card {
+        width: 40vw;
+        height: 60vw;
+    }
+  }

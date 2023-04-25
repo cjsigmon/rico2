@@ -261,9 +261,29 @@ background-color: #004E65;
     justify-content: center;
 }
 
+@media screen and (aspect-ration: 16/9) {
+    .home-title {
+        bottom: 10vh;
+    }
+  }
+
 @media only screen and (max-width: 450px) {
     html, body {
         overflow-x:clip;
+    }
+
+    .home-title {
+        bottom: 36vw;
+    }
+
+    .clickme {
+        height: 17%;
+    }
+}
+
+@media only screen and (min-width: 410px) {
+    .home-title {
+        bottom: 32vw;
     }
 }
 
@@ -281,5 +301,7 @@ background-color: #004E65;
         max-width: 60%;
     }
 }
+
+
 
 

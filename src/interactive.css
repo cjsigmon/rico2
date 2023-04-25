@@ -640,6 +640,12 @@ button:focus > .sq:not(#srcSq) {
     }
   }
 
+  @media screen and (aspect-ration: 16/9) {
+    #abt-drug-cont {
+      top: 100px;
+    }
+  }
+
 
   @media only screen and (max-width: 420px) {
 
