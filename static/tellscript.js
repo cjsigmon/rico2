@@ -9,17 +9,21 @@ function handleScroll() {
     const windowHeight = document.documentElement.clientHeight || window.innerHeight;
     const scrollPercentage = (scrollTop / (scrollHeight - windowHeight)) * 100;
 
-    if (scrollPercentage > 75) {
-        console.log('Scroll position is above 75%');
+    if (scrollPercentage > 80) {
+        console.log('Scroll position is above 80%');
+        i = 5;
+    } else if (scrollPercentage > 60) {
+        console.log('Scroll position is above 60%');
         i = 4;
-    } else if (scrollPercentage > 50) {
-        console.log('Scroll position is above 50%');
-        i = 3;
     }
-    else if (scrollPercentage > 25) {
-        console.log('Scroll position is above 25%');
+    else if (scrollPercentage > 40) {
+        console.log('Scroll position is above 40%');
+        i = 3;
+    }  else if (scrollPercentage > 20) {
+        console.log('Scroll position is above 20%');
         i = 2;
-    } else {
+    }
+    else {
         i = 1;
     }
 
