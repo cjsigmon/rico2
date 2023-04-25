@@ -443,6 +443,14 @@
   .quote-wrapper-rel {
     padding-bottom: 60vh;
   }
+
+  .photo-frame {
+    height: 100vw;
+  }
+
+  .photo-frame-container {
+    margin-bottom: 60vh;
+  }
 }
 
 
