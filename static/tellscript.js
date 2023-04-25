@@ -11,20 +11,20 @@ function handleScroll() {
 
     if (scrollPercentage > 80) {
         console.log('Scroll position is above 80%');
-        i = 5;
+        i = 4;
     } else if (scrollPercentage > 60) {
         console.log('Scroll position is above 60%');
-        i = 4;
+        i = 3;
     }
     else if (scrollPercentage > 40) {
         console.log('Scroll position is above 40%');
-        i = 3;
+        i = 2;
     }  else if (scrollPercentage > 20) {
         console.log('Scroll position is above 20%');
-        i = 2;
+        i = 1;
     }
     else {
-        i = 1;
+        i = 0;
     }
 
             var miframe = document.getElementById("miframe");
