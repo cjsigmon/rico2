@@ -1,6 +1,6 @@
 import * as React from "react";
 import '../styles.css';
-import govImage from '../img/government.jpg'; // import the image file
+import govImage from '../img/governance.jpg'; // import the image file
 import powImage from '../img/power.png';
 import healthImage from '../img/healthcare.jpg';
 import envImage from '../img/environment.jpg';

@@ -24,7 +24,7 @@
 }
 .bg-GOVERNANCE {
     background-image: linear-gradient(to bottom, rgba(32, 32, 32, 0.093), rgba(0, 0, 0, 0.401)),
-    url("img/government.jpg");
+    url("img/governance.jpg");
 }
 .bg-ENVIRONMENT {
     background-image: linear-gradient(to bottom, rgba(32, 32, 32, 0.093), rgba(0, 0, 0, 0.401)),

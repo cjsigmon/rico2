@@ -217,7 +217,7 @@ background-color: #004E65;
 }
 
 #GOVERNANCE {
-    background-image: linear-gradient(to top,  #FF6600, #ff660058, #ff660000, #ff660000), url('img/government.jpg');
+    background-image: linear-gradient(to top,  #FF6600, #ff660058, #ff660000, #ff660000), url('img/governance.jpg');
 }
 #GOVERNANCE > div {
     background-color: #FF6600;
