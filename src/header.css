@@ -5,7 +5,8 @@
 
 .bg {
     
-
+    background-image: linear-gradient(to bottom, rgba(32, 32, 32, 0.093), rgba(0, 0, 0, 0.401)),
+    url("img/poster.png");
     background-size: cover;
     background-position: top;
     min-height: 100%;
