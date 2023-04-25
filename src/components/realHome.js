@@ -4,6 +4,7 @@ import { useStaticQuery, graphql, Link } from "gatsby";
 import Navbar from "../components/navbar";
 import '../styles.css';
 import HeaderImg from "../components/header";
+import HeaderVid from "./headervid";
 import Footer from "../components/footer";
 import MyContext from "../MyContext";
 import VideoComp from "./videoComp";
@@ -31,7 +32,7 @@ const HomePage = () =>  {
         return (
             <main>
             <Navbar strI={0} />
-            <HeaderImg noline={true} title={"ISLA DE FUERZA"}/>
+            <HeaderVid />
 
             <div className="post-grid" id="homepage-txt">
               <div className="l-mar"></div>
