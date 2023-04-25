@@ -2,7 +2,12 @@ import * as React from "react";
 import { useState, useRef, useEffect } from "react";
 import '../styles.css';
 import filler from '../img/section/adjuntas-lago-garzas.png'; 
-import govS from '../img/section/section-gov.jpg';// import the image file
+import govS from '../img/section/section-gov.jpg';
+import heaS from '../img/section/section-hea.jpg';
+import comS from '../img/section/section-com.jpg';
+import envS from '../img/section/section-env.jpg';
+import powS from '../img/section/section-pow.png';
+
 
 export default function Section({ team, title }) {
     const TITLE = title.toUpperCase();
@@ -10,6 +15,18 @@ export default function Section({ team, title }) {
 
     useEffect(() => {
         switch(team) {
+            case 'ENVIRONMENT':
+                setImage(envS);
+                break;
+                case 'COMMUNITY':
+                setImage(comS);
+                break;
+                case 'POWER':
+                setImage(powS);
+                break;
+                case 'HEALTHCARE':
+                setImage(heaS);
+                break;
             case 'GOVERNANCE':
                 setImage(govS);
                 break;
