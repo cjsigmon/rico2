@@ -92,7 +92,7 @@ export default function ReadMore(props) {
                 {exclude === 'STEP BY STEP' ? <></> :  <a href={powLink}><div className="readmore-hold"><img src={powImage}></img><h4 id="powread">STEP BY STEP</h4></div></a>}
                 {exclude === 'A CULTURAL ANCHOR' ? <></> :  <a href={comLink}><div className="readmore-hold"><img src={comImage}></img><h4 id="comread">A CULTURAL ANCHOR</h4></div></a>}
                 {exclude === 'RESISTANT, NOT RESILIENT' ? <></> :  <a href={govLink}><div className="readmore-hold"><img src={govImage}></img><h4 id="govread">RESISTANT, NOT RESILIENT</h4></div></a>}
-                {exclude === 'SHIFTING TIDES' ? <></> :  <a href={envLink}><div className="readmore-hold"><img src={envImage}></img><h4 id="envread">ERODING AWAY</h4></div></a>}
+                {exclude === 'SHIFTING TIDES' ? <></> :  <a href={envLink}><div className="readmore-hold"><img src={envImage}></img><h4 id="envread">SHIFTING TIDES</h4></div></a>}
                 {exclude === 'ROAD TO RECOVERY' ? <></> :  <a href={healthLink}><div className="readmore-hold"><img src={healthImage}></img><h4 id="hearead">ROAD TO RECOVERY</h4></div></a>}
             </div> : <div className="more-thumbs">
                 {exclude === 'PASO A PASO' ? <></> :  <a href={fueLink}><div className="readmore-hold"><img src={powImage}></img><h4 id="powread">PASO A PASO</h4></div></a>}
