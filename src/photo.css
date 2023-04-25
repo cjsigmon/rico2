@@ -80,6 +80,7 @@
     max-height: 100vh;
   }
 
+
   .panel p {
     position: absolute;
     left: 0;
@@ -93,6 +94,21 @@
     box-shadow: 0px 0px 9px rgb(0, 0, 0);
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
+  }
+
+.book-h4 {
+  margin: 10vw;
+}
+
+  .book-p {
+    box-shadow: none!important;
+    background: none!important;
+    text-shadow: 5px 5px 5px black;
+  }
+
+  .book-pan {
+    background-color: none!important;
+    box-shadow: none!important;
   }
 
   .pho-ti {
@@ -133,20 +149,82 @@
   }
 
   .b1 {
-    background-image:url("https://picsum.photos/1920/1080");  
+    background-image:url("img/book/One.jpg");  
+    z-index:-8;
+  }
+  .of1 {
+    z-index: -8;
   }
   .b2 {
-    background-image:url("https://picsum.photos/1000/1080");  
+    background-image:url("img/book/Two.jpg");  
+    z-index:-7;
   }
+  .of2 {
+    z-index: -7;
+  }
+
   .b3 {
-    background-image:url("https://picsum.photos/500/1080");
-    position: sticky;
-    top: 0;
+    background-image:url("img/book/Three.jpg");
+    z-index:-6;
   }
+  .of3 {
+    z-index: -6;
+  }
+
+  .b4 {
+    background-image:url("img/book/Four.jpg");  
+    z-index:-5;
+  }
+  .of4 {
+    z-index: -5;
+  }
+
+  .b5 {
+    background-image:url("img/book/Five.jpg");  
+    z-index:-4;
+  }
+  .of5 {
+    z-index: -4;
+  }
+
+  .b6 {
+    background-image:url("img/book/Six.jpg");
+    z-index:-3;
+  }
+  .of6 {
+    z-index: -3;
+  }
+
+  .b7 {
+    background-image:url("img/book/Seven.jpg");  
+    z-index:-2;
+  }
+  .of1 {
+    z-index: -2;
+  }
+
+
+  .b8 {
+    background-image:url("img/book/Eight.jpg");  
+    z-index:-1;
+  }
+  .of1 {
+    z-index: -1;
+  }
+
+
 
 #book-container {
   position: sticky;
   top: 0;
+}
+
+.make-90-cont {
+  transform: translateX(-23vw);
+}
+
+.make-90 {
+  max-width: 90vw;
 }
 
 .medium-port {

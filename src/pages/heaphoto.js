@@ -346,7 +346,7 @@ p13Ref.current.style.opacity = '1';
             onComplete={killp12}
             onReverseComplete={resp12}
           >
-            <section className="panel gov17 drrk"><img src={gov13}/></section>
+            <section className="panel gov17"><img src={gov13}/></section>
           </Tween>
 {/* END */}
           <Tween
