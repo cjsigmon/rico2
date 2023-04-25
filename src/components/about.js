@@ -6,7 +6,7 @@ import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/
 import alex from '../video-headshot/AlexHS.mp4';
 import ally from '../video-headshot/AllyHS.mp4';
 import amanda from '../video-headshot/AmandaHS.mp4';
-import angelina from './video-headshot/AngelinaHS.mp4';
+import angelina from '../video-headshot/AngelinaHS.mp4';
 import anna from '../video-headshot/AnnaHS.mp4';
 import ann from '../video-headshot/AnnHS.mp4';
 import bella from '../video-headshot/BellaHS.mp4';
