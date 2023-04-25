@@ -34,17 +34,15 @@
     background-image: linear-gradient(to bottom, rgba(32, 32, 32, 0.093), rgba(0, 0, 0, 0.401)),
     url("img/healthcare.jpg");
 }
-.bg-ABOUT {
-    background-image: linear-gradient(to bottom, rgba(32, 32, 32, 0.093), rgba(0, 0, 0, 0.401)),
-    url("img/nomada.jpg");
-}
+
 
 
 #abg {
     min-height: 100%;
     height: 60vh;
     background-image: linear-gradient(to bottom, rgba(32, 32, 32, 0.093), rgba(0, 0, 0, 0.401)),
-    url("img/nomada.jpg");
+    url("img/bg_about.jpg");
+    background-position: center 64%;
 }
 
 #abg .box {
@@ -79,6 +77,7 @@
   }
 
 #main-title-contain {
+    margin-top: 8vh;
     position: relative;
     text-align: center;
     font-family: "futura-pt-bold", sans-serif;
@@ -88,17 +87,17 @@
 
 .main-title {
     margin: auto;
+    /* letter-spacing: 0.6vw; */
 }
 
 .main-title, #main-tagline {
-    max-width: 80vw;
-    letter-spacing: 0.9vw;
-    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.273);
+    max-width: 85vw;
+    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.973);
 }
 
 
 #main-tagline {
-    letter-spacing: 0.6vw;
+    letter-spacing: 0vw;
     /* padding-left: 10%;
     padding-right: 10%; */
     max-width: 90vw;

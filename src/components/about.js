@@ -229,10 +229,10 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Alex Kormann</h6>
                         <p className="team-role">{coach}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/alexkormann12/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/alex-kormann/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                            <a href="https://www.facebook.com/alex.kormann.94/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
+                            <a href="https://twitter.com/KormannAlex" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                         </div>
                     </div>
 
@@ -248,10 +248,9 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Ally Rabon</h6>
                         <p className="team-role">Video</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/allyrabonmedia/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/allysonrabon/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                            <a href="https://www.facebook.com/allyson.rabon/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
                         </div>
                     </div>
 
@@ -269,10 +268,8 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Amanda Jiménez Berríos</h6>
                         <p className="team-role">{conn}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/amanda.9197/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/amanda-jimenez-berrios-699588263" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
 
@@ -287,10 +284,10 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Angelina Katsanis</h6>
                         <p className="team-role">Video</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/akatsmedia/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/angelinakatsanis/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                            <a href="https://www.facebook.com/profile.php?id=100004362409467" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
+                            <a href="https://twitter.com/akatsmedia" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                         </div>
                     </div>
 
@@ -305,10 +302,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Ann Licharew</h6>
                         <p className="team-role">Video</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.linkedin.com/in/ann-licharew-54592b166/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
 
@@ -323,10 +317,9 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Anna Connors</h6>
                         <p className="team-role">{photo}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/annaconnorsphoto/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/anna-connors-b81476181/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                            <a href="https://www.facebook.com/anna.connors.315" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
                         </div>
                     </div>
 
@@ -341,10 +334,9 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Bella Cankurtaran</h6>
                         <p className="team-role">{adPR}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/bellacankurtaran/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/bella-cankurtaran/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                            <a href="https://www.facebook.com/bella.cankurtaran" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
                         </div>
                     </div>
 
@@ -359,10 +351,9 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Brooke Fisher</h6>
                         <p className="team-role">{coach}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/brookenfisher/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://linkedin.com/in/brooke-n-fisher/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                            <a href="https://www.facebook.com/brookenf" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
                         </div>
                     </div>
 
@@ -377,10 +368,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Caleb Sigmon</h6>
                         <p className="team-role">{devv}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.linkedin.com/in/calebsigmon/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
 
@@ -395,10 +383,8 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Clara Mello</h6>
                         <p className="team-role">{dez}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/clahruh/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/clara-ronza-motta-mello-b05aa921b/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
 
@@ -413,10 +399,9 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Cynthia Liu</h6>
                         <p className="team-role">Video</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/liiuphotography/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/cynthialiiu/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                            <a href="https://twitter.com/cynthiialiu" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                         </div>
                     </div>
 
@@ -431,10 +416,8 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Dylan Thiessen</h6>
                         <p className="team-role">{photo}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/thiessenphotos/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/dylan-thiessen/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
 
@@ -449,10 +432,10 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Emily Gajda</h6>
                         <p className="team-role">{repp}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/emilycgaj/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/emily-gajda/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                            <a href="https://www.facebook.com/people/Emily-Gajda/100005384116794/?paipv=0&eav=Afbe2_vpWF4Vjs2uxjEriQPce3xER0FEWuJQfoV1nxAoiw1daAbzGCC50qA0emQK7lY&_rdr" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
+                            <a href="https://twitter.com/emilycgajda" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                         </div>
                     </div>
 
@@ -467,10 +450,8 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Fallon Maher</h6>
                         <p className="team-role">Video</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/falperi/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/fallon-maher/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
 
@@ -485,10 +466,9 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Florencia Loncán</h6>
                         <p className="team-role">{adPR}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/florencia.loncan/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/florencia-lonc%C3%A1n-a58859197" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                            <a href="https://www.facebook.com/profile.php?id=100010885666336/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
                         </div>
                     </div>
 
@@ -503,10 +483,9 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Gerard Millman</h6>
                         <p className="team-role">Video</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/gerardmillman/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/gerard-millman-38674414a/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                            <a href="https://www.facebook.com/gerard.millman" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
                         </div>
                     </div>
 
@@ -521,10 +500,6 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Gina Flow</h6>
                         <p className="team-role">{dez}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                         </div>
                     </div>
 
@@ -539,10 +514,8 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Giuli Hoffmann</h6>
                         <p className="team-role">{dez}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/giuli.hoffmann/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/giuli-hoffmann-27752422a/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
 
@@ -557,10 +530,8 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Heather Diehl</h6>
                         <p className="team-role">{photo}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/diehl_photography/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/heather-diehl-413311233/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
 
@@ -572,13 +543,10 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
                             src={ivanna}/></div>
-                        <h6 className="name-here">Ivanna</h6>
+                        <h6 className="name-here">Ivanna Diaz Rivera</h6>
                         <p className="team-role">{conn}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/ivannaadiaz/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                         </div>
                     </div>
 
@@ -593,10 +561,8 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Jacob Turner</h6>
                         <p className="team-role">{dezDev}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/jacob.turn/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/jacob-turner-7521a8198/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
 
@@ -611,10 +577,8 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Jennifer Tran</h6>
                         <p className="team-role">Video</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/jens_cameraroll/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/jennifertran413/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
 
@@ -629,10 +593,6 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Karina Torres Torres</h6>
                         <p className="team-role">{conn}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                         </div>
                     </div>
 
@@ -647,10 +607,8 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Lauren Cmiel</h6>
                         <p className="team-role">Video</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/laurens__lens_/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/laurencmiel/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
 
@@ -665,10 +623,6 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Liana Pinner</h6>
                         <p className="team-role">{coach}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                         </div>
                     </div>
 
@@ -683,10 +637,9 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Liv Reilly</h6>
                         <p className="team-role">{repp}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/livreills/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/liv-reilly-2b9163220/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                            <a href="https://www.twitter.com/livvreilly/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                         </div>
                     </div>
 
@@ -701,10 +654,9 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Lucas Thomae</h6>
                         <p className="team-role">{repp}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/lucasthomae/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/lucas-thomae/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                            <a href="https://www.twitter.com/lucasthomae/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                         </div>
                     </div>
 
@@ -719,10 +671,6 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Marivi</h6>
                         <p className="team-role">{conn}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                         </div>
                     </div>
 
@@ -737,10 +685,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Nina Scott</h6>
                         <p className="team-role">{dezDev}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.linkedin.com/in/nina-s-unc/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
 
@@ -755,10 +700,8 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Patrick Davison</h6>
                         <p className="team-role">{coach}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/patdavison/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/patrickdavison/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
 
@@ -773,10 +716,9 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Preston Fore</h6>
                         <p className="team-role">{repp}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/preston.fore/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/forepreston/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                            <a href="https://www.twitter.com/forepreston/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                         </div>
                     </div>
 
@@ -791,10 +733,8 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Quincy Marks</h6>
                         <p className="team-role">Video</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/quincyymarks/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/quincy-marks/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
 
@@ -809,10 +749,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Ryan Thornburg</h6>
                         <p className="team-role">{coach}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.linkedin.com/in/ryanthornburg" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
 
@@ -827,10 +764,10 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Samantha Lewis</h6>
                         <p className="team-role">{photo}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/sjlewisphoto /" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/samantha-lewis-78645b237/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                            <a href="https://www.facebook.com/sam.lew.583" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
+                            <a href="https://www.twitter.com/samlewis03/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                         </div>
                     </div>
 
@@ -845,10 +782,8 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Taylor Holbrooks</h6>
                         <p className="team-role">Video</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/th.photoarchives/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/taylor-holbrooks/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
                     
@@ -864,10 +799,9 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Thomas Moody-Jones</h6>
                         <p className="team-role">{repp}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="https://www.instagram.com/thomasmoodyjones/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/thomas-moody-jones/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                            <a href="https://www.twitter.com/ThomasMoodyJ/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                         </div>
                     </div>
 
@@ -882,10 +816,6 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         <h6 className="name-here">Yondy Agosto García</h6>
                         <p className="team-role">{conn}</p>
                         <div className="socials">
-                            <a href="https://www.instagram.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
-                            <a href="https://www.facebook.com/uncglobalstory/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                         </div>
                     </div>        
                 </div>
