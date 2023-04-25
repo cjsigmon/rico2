@@ -115,6 +115,7 @@ if (first) {
       storyTeam.video2 = 'Lauren Cmiel';
       storyTeam.inter = 'Clara Mello';
       storyTeam.inter2 = 'Jacob Turner';
+      storyTeam.photo = "Dylan Thiessen";
       storyTeam.upr = 'Yondy Agosto García';
       storyTeam.theme = 'POWER';
       storyTeam.slug = '/paso-a-paso';
@@ -293,13 +294,13 @@ useEffect(() => {
           case "health-vid":
             return <VideoComp color={color.color} link={"https://player.vimeo.com/video/820373058?h=0cfc9e7787&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"} />;
           case "power-vid":
-            return <VideoComp color={color.color} link={"https://player.vimeo.com/video/291295858?h=fee30cc906"} />;
+            return <VideoComp color={color.color} link={"https://player.vimeo.com/video/820864647?h=3d0afd428d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"} />;
           case "env-vid":
             return <VideoComp color={color.color} link={"https://player.vimeo.com/video/291295858?h=fee30cc906"} />;
           case "com-vid":
             return <VideoComp color={color.color} link={"https://player.vimeo.com/video/291295858?h=fee30cc906"} />;
           case "gov-vid":
-            return <VideoComp color={color.color} link={"https://player.vimeo.com/video/291295858?h=fee30cc906"} />;
+            return <VideoComp color={color.color} link={"https://player.vimeo.com/video/820767365?h=dcd896c0d6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"} />;
             
         }
       }

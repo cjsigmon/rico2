@@ -176,7 +176,7 @@ export default function VideoComp({ left, link, color }) {
               <ReactPlayer
                   id={left == 0 ? "explain-ht" : "vid-ht"}
                   ref={playerRef}
-                  style={playing ? {} : { filter: 'blur(5px)',  filter: 'brightness(50%)', position: 'absolute', top:'0', left:'0', width: '100%', height:'100%'}}
+                  style={playing ? {} : { filter: 'blur(5px)',  filter: 'brightness(90%)', position: 'absolute', top:'0', left:'0', width: '100%', height:'100%'}}
                   url={link}
                   
                   onProgress={handleProgress}

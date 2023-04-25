@@ -151,8 +151,8 @@ p13Ref.current.style.opacity = '1';
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel"><p ref={p1Ref}>The dangerous health conditions the unhoused population is exposed to and exacerbation of any current health issues clearly identifies housing as a form of healthcare. Natural disasters and the opioid crisis fuel the struggles of people experiencing homelessness. Carla Correa Cepeda has dedicated her life to serving the unhoused population, providing various healthcare services to mitigate these challenges for the past 7 years in this field.  
-            <br></br><br></br>Cepeda rubs her neck after a long week of work. The emotional toll of finding solutions for a population that faces countless barriers caused by societal stigmas weighs heavily on Cepeda. “The responsibility of creating a plan throughout Puerto Rico to serve the homeless is a huge responsibility,” she said.
+            <section className="panel"><p ref={p1Ref}>Housing serves as a form of healthcare by mitigating dangerous health conditions that arise from lack of shelter. Natural disasters and the opioid crisis fuel the struggles of people experiencing homelessness. Carla Correa Cepeda has dedicated her life  to providing healthcare to people experiencing homelessness for the past seven years.
+            <br></br><br></br>Cepeda rubs her neck after a long week of work. The emotional toll of finding solutions for a population that faces countless barriers caused by societal stigmas weighs heavily on Cepeda. “The responsibility of creating a plan throughout Puerto Rico to serve the homeless is a huge responsibility,” she said. 
 </p></section>
           </Tween>
 {/* 2 */}
@@ -162,7 +162,7 @@ p13Ref.current.style.opacity = '1';
             onComplete={killp1}
             onReverseComplete={resp1}
           >
-            <section className="panel"><img src={gov2}/></section>
+            <section className="panel drrk"><img src={gov2}/></section>
           </Tween>
 {/* 2.5 */}
           <Tween
@@ -179,7 +179,7 @@ p13Ref.current.style.opacity = '1';
             onComplete={killp2}
             onReverseComplete={resp2}
           >
-            <section className="panel"><img className="medium-land l" src={gov3}/></section>
+            <section className="panel drrk"><img src={gov3}/></section>
           </Tween>
 {/* 4 */}
           <Tween
@@ -196,7 +196,7 @@ p13Ref.current.style.opacity = '1';
             onComplete={killp3}
             onReverseComplete={resp3}
           >
-            <section className="panel gov5"><img className="medium-land l" src={gov4}/></section>
+            <section className="panel gov5 drrk"><img src={gov4}/></section>
           </Tween>
 {/* 6 */}
           <Tween
@@ -213,7 +213,7 @@ p13Ref.current.style.opacity = '1';
             onComplete={killp4}
             onReverseComplete={resp4}
           >
-            <section className="panel gov7"><img className="medium-land " src={gov5}/></section>
+            <section className="panel gov7 drrk"><img src={gov5}/></section>
           </Tween>
 {/* 8 */}
           <Tween
@@ -230,7 +230,7 @@ p13Ref.current.style.opacity = '1';
             onComplete={killp5}
             onReverseComplete={resp5}
           >
-            <section className="panel gov9"><img src={gov6}/></section>
+            <section className="panel gov9 drrk"><img src={gov6}/></section>
           </Tween>
 {/* 10 */}
           <Tween
@@ -247,7 +247,7 @@ p13Ref.current.style.opacity = '1';
             onComplete={killp6}
             onReverseComplete={resp6}
           >
-            <section className="panel gov11"><img className="medium-land l" src={gov7}/></section>
+            <section className="panel gov11 drrk"><img src={gov7}/></section>
           </Tween>
 {/* 12 */}
 <Tween
@@ -263,7 +263,7 @@ p13Ref.current.style.opacity = '1';
             onComplete={killp7}
             onReverseComplete={resp7}
           >
-            <section className="panel gov13"><img className="medium-land r" src={gov8}/></section>
+            <section className="panel gov13 drrk"><img src={gov8}/></section>
           </Tween>
 {/* 14 */}
 <Tween
@@ -280,7 +280,7 @@ p13Ref.current.style.opacity = '1';
             onComplete={killp8}
             onReverseComplete={resp8}
           >
-            <section className="panel gov15"><img className="medium-land " src={gov9}/></section>
+            <section className="panel gov15 drrk"><img src={gov9}/></section>
           </Tween>
 {/* 16 */}
 <Tween
@@ -297,7 +297,7 @@ p13Ref.current.style.opacity = '1';
             onComplete={killp9}
             onReverseComplete={resp9}
           >
-            <section className="panel gov17"><img src={gov10}/></section>
+            <section className="panel gov17 drrk"><img src={gov10}/></section>
           </Tween>
 
           <Tween
@@ -314,7 +314,7 @@ p13Ref.current.style.opacity = '1';
             onComplete={killp10}
             onReverseComplete={resp10}
           >
-            <section className="panel gov17"><img id="gov11" className="medium-land l" src={gov11}/></section>
+            <section className="panel gov17 drrk"><img id="gov11" src={gov11}/></section>
           </Tween>
 {/* END */}
           <Tween
@@ -330,7 +330,7 @@ p13Ref.current.style.opacity = '1';
             onComplete={killp11}
             onReverseComplete={resp11}
           >
-            <section className="panel gov17"><img className="medium-land r" src={gov12}/></section>
+            <section className="panel gov17 drrk"><img src={gov12}/></section>
           </Tween>
 {/* END */}
           <Tween
@@ -346,7 +346,7 @@ p13Ref.current.style.opacity = '1';
             onComplete={killp12}
             onReverseComplete={resp12}
           >
-            <section className="panel gov17"><img className="medium-land" src={gov13}/></section>
+            <section className="panel gov17 drrk"><img src={gov13}/></section>
           </Tween>
 {/* END */}
           <Tween

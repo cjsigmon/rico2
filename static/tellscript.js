@@ -9,11 +9,17 @@ function handleScroll() {
     const windowHeight = document.documentElement.clientHeight || window.innerHeight;
     const scrollPercentage = (scrollTop / (scrollHeight - windowHeight)) * 100;
 
-    if (scrollPercentage > 50) {
-        console.log('Scroll position is over 40%');
+    if (scrollPercentage > 75) {
+        console.log('Scroll position is above 75%');
+        i = 4;
+    } else if (scrollPercentage > 50) {
+        console.log('Scroll position is above 50%');
+        i = 3;
+    }
+    else if (scrollPercentage > 25) {
+        console.log('Scroll position is above 25%');
         i = 2;
     } else {
-        console.log('Scroll position is below 40%');
         i = 1;
     }
 
@@ -35,7 +41,7 @@ function handleScroll() {
             scrollTimeout = setTimeout(() => {
           
               handleScroll();
-            }, 500); // 500 milliseconds delay
+            }, 100); // 500 milliseconds delay
           });
       }
 
