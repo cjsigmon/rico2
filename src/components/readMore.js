@@ -1,7 +1,7 @@
 import * as React from "react";
 import '../styles.css';
 import govImage from '../img/government.jpg'; // import the image file
-import powImage from '../img/power.jpg';
+import powImage from '../img/power.png';
 import healthImage from '../img/healthcare.jpg';
 import envImage from '../img/environment.jpg';
 import comImage from '../img/community.jpg';

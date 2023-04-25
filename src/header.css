@@ -12,11 +12,31 @@
     min-height: 100%;
     height: 100vh;
     position: relative;
-    /* opacity: 0;
-  animation-name: fade-in;
-  animation-duration: 2s;
-  animation-fill-mode: forwards; */
 }
+
+.bg-POWER {
+    background-image: linear-gradient(to bottom, rgba(32, 32, 32, 0.093), rgba(0, 0, 0, 0.401)),
+    url("img/power.png");
+}
+.bg-COMMUNITY {
+    background-image: linear-gradient(to bottom, rgba(32, 32, 32, 0.093), rgba(0, 0, 0, 0.401)),
+    url("img/community.jpg");
+}
+.bg-GOVERNANCE {
+    background-image: linear-gradient(to bottom, rgba(32, 32, 32, 0.093), rgba(0, 0, 0, 0.401)),
+    url("img/government.jpg");
+}
+.bg-ENVIRONMENT {
+    background-image: linear-gradient(to bottom, rgba(32, 32, 32, 0.093), rgba(0, 0, 0, 0.401)),
+    url("img/environment.jpg");
+}
+.bg-HEALTHCARE {
+    background-image: linear-gradient(to bottom, rgba(32, 32, 32, 0.093), rgba(0, 0, 0, 0.401)),
+    url("img/healthcare.jpg");
+}
+
+
+
 
 #abg {
     min-height: 100%;

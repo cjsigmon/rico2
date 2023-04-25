@@ -207,7 +207,7 @@ background-color: #004E65;
 }
 
 #POWER {
-    background-image: linear-gradient(to top,  #F3CB47, #f3cb4779, #f3cb4700, #f3cb4700), url('img/power.jpg');
+    background-image: linear-gradient(to top,  #F3CB47, #f3cb4779, #f3cb4700, #f3cb4700), url('img/power.png');
 }
 #POWER > div {
     background-color: #F3CB47;

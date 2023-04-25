@@ -58,7 +58,7 @@ function BlogPostTemplate ({ data: { post } }) {
   var color = {};
 if (first) {
   switch(post.title) {
-    case ('ERODING AWAY'):
+    case ('SHIFTING TIDES'):
       storyTeam.reporter = 'Thomas Moody-Jones';
       storyTeam.photo = 'Dylan Thiessen';
       storyTeam.video1 = 'Ann Licharew';
@@ -291,7 +291,7 @@ useEffect(() => {
      if (node.attribs && node.attribs.class === "replace-video") {
         switch(node.attribs.id) {
           case "health-vid":
-            return <VideoComp color={color.color} link={"https://player.vimeo.com/video/291295858?h=fee30cc906"} />;
+            return <VideoComp color={color.color} link={"https://player.vimeo.com/video/820373058?h=0cfc9e7787&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"} />;
           case "power-vid":
             return <VideoComp color={color.color} link={"https://player.vimeo.com/video/291295858?h=fee30cc906"} />;
           case "env-vid":
