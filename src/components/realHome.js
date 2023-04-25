@@ -46,7 +46,7 @@ const HomePage = () =>  {
              </div>
 
   
-            <VideoComp left={0} color={'white'} link={"https://player.vimeo.com/video/355172283?h=5e5299b581&title=0&byline=0&portrait=0"}/>
+            <VideoComp left={0} color={'white'} link={"https://player.vimeo.com/video/820916929?h=f4fc4a47fa&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"}/>
             
            {myBoolean ?
            <>

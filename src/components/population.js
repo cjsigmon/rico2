@@ -50,7 +50,7 @@ class Population extends Component {
     
         // Render the first div
         const div1 = this.popRef1.current;
-        div1.innerHTML = '<div class="flourish-embed flourish-chart" data-src="visualisation/13476886"></div>';
+        div1.innerHTML = '<div class="flourish-embed flourish-chart" data-src="visualisation/13443823"></div>';
         // Render the second div
         const div2 = this.popRef2.current;
         div2.innerHTML = '<div class="flourish-embed flourish-chart" data-src="visualisation/13476886"></div>';
