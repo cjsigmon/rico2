@@ -30,7 +30,7 @@ const SectionWipes2 = () => {
         duration="300%"
         pin
       >
-       
+      
           
         <Timeline
           wrapper={<div id="pinContainer" />}
