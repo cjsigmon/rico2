@@ -92,7 +92,7 @@ const HomePage = () =>  {
              </Link>
            </div>
            <div className={"right-title"}>
-             <Link to={ "/against-the-current" }><h1 className="home-title" id={"ENVIRONMENT-home-title"}>ERODING AWAY</h1></Link>
+             <Link to={ "/against-the-current" }><h1 className="home-title" id={"ENVIRONMENT-home-title"}>SHIFTING TIDES</h1></Link>
              <p className={"home-subtitle rsub"} id={"ENVIRONMENT-subtitle"}>A community’s fight against waves of environmental injustice and unjust development</p>
            </div>
          </div>
