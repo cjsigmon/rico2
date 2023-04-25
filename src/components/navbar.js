@@ -19,6 +19,11 @@ function Navbar (props) {
   const [first, setFirst] = useState(true);
   const { myBoolean, setMyBoolean } = useContext(MyContext);
   const [english, setEnglish ] = useState(true);
+  const barsRef = useRef(null);
+
+  const [isWindowLoaded, setIsWindowLoaded] = useState(false);
+
+
 
 
   const data = useStaticQuery(graphql`
@@ -151,7 +156,7 @@ function Navbar (props) {
             
             {/* <div class="mar"></div> */}
             <div className="mob-menu">
-              <span onClick={handleHamClick}><FontAwesomeIcon icon={faBars} style={{color: "white", position: "fixed",}}/></span>
+              <span ref={barsRef} onClick={handleHamClick}><FontAwesomeIcon icon={faBars} style={{color: "white", position: "fixed"}}/></span>
               
               <Link id="mob-logo" to="/"><img id="mob-logo-img" src={logo} />
             </Link>

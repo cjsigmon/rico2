@@ -296,7 +296,7 @@ useEffect(() => {
           case "power-vid":
             return <VideoComp color={color.color} link={"https://player.vimeo.com/video/820864647?h=3d0afd428d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"} />;
           case "env-vid":
-            return <VideoComp color={color.color} link={"https://player.vimeo.com/video/291295858?h=fee30cc906"} />;
+            return <VideoComp color={color.color} link={"https://player.vimeo.com/video/821000523?h=50a59d5f46&color=d4c7ab&title=0&byline=0&portrait=0"} />;
           case "com-vid":
             return <VideoComp color={color.color} link={"https://player.vimeo.com/video/821000553?h=59506717f2&color=d4c7ab&title=0&byline=0&portrait=0"} />;
           case "gov-vid":
