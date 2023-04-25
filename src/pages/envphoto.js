@@ -143,8 +143,10 @@ p12Ref.current.style.opacity = '1';
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel"><p ref={p1Ref}>Loíza, Puerto Rico, is a lively and joyful community that bands together in the face of continued adversity. Through dance, service, worship and education, Loíza represents the broader resistance of the Puerto Rican people. 
-            <br></br><br></br>An ancient cultural expression, Bomba was created in the 1600s by enslaved people in Loíza to communicate when language was a barrier. Today, it is an act of protest, a method of self-expression and sometimes an act of joy. It isn't a performance done for the audience; it is a dancer’s own experience.
+            <section className="panel"><p ref={p1Ref}>Mario Jose Enrique Erik Paoli Rosado, Enrique Paoli to his friends, returned to Puerto Rico after over 40 years away to care for his aging mother. Upon reconnecting with fellow surfers from his childhood, he learned of the impending development threatening Escambron Beach. He’s spent over a month living feet from the water, fighting for the preservation of one of San Juan’s last public spaces.  
+
+            <br></br><br></br>All the camp’s food has to be stored in coolers and prepared on less than sanitary surfaces. Despite the conditions, Enrique has no complaints. “I feel comfortable. I don’t have any inconveniences,” he says.
+
 </p></section>
           </Tween>
 {/* 2 */}
@@ -161,7 +163,9 @@ p12Ref.current.style.opacity = '1';
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel"><p ref={p2Ref}>Bomba is an improvisational style of dance that begins with a solo dancer approaching a group of percussionists. The dancer's movements direct the music — instead of music guiding the dance. The drums are just as important as the dancer in creating Bomba's unique style. 
+            <section className="panel"><p ref={p2Ref}>Enrique prepares breakfast surrounded by the tents of fellow protestors. Camp was set up right off the sand of Escambron beach so it doesn’t block access to the space they’re trying to protect. The amount of protestors fluctuates, but Enrique has remained since arriving on February 26th. 
+
+ 
           </p></section>
           </Tween>
 {/* 3 */}
@@ -178,7 +182,8 @@ p12Ref.current.style.opacity = '1';
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel gov4"><p ref={p3Ref}>Migdalia Fargas, from Carolina, Puerto Rico, dances Bomba during a Sobera'o at Corporación Piñones Se Integra, a nonprofit based in Loíza dedicated to providing cultural activities for the community. Fargas’ smile never faded as she danced — a testament to the spirit of the dance.</p></section>
+            <section className="panel gov4"><p ref={p3Ref}>The Hotel Normandie opened in 1942, a wedding present for the developer’s wife. Now it’s abandoned and in disrepair, but still a cultural fixture bordering one of the last stretches of public beach in San Juan. Recently purchased by the Ishay Group, its impending renovation and development has sparked protests.
+</p></section>
           </Tween>
 {/* 4 */}
           <Tween
@@ -194,7 +199,8 @@ p12Ref.current.style.opacity = '1';
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel gov6"><p ref={p4Ref}>A composting and organic farming workshop takes place at a Loíza community center. Israel Diaz tills the ground where the garden will grow. The workshop aims to teach the community how to be self-sufficient in their farming practices.</p></section>
+            <section className="panel gov6"><p ref={p4Ref}>In the shadow of the Hotel Normandie is Sixto Escobar Stadium, which precedes the hotel by a decade. Part of the development plan is converting this historic stadium into a parking lot, which would block off most public access to Escambron beach. Despite appearing abandoned, the stadium sees daily use.
+</p></section>
           </Tween>
 {/* 5 */}
           <Tween
@@ -210,7 +216,9 @@ p12Ref.current.style.opacity = '1';
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel gov8"><p ref={p5Ref}>Clara Rivera Pacheco is the organizer of the gardening workshop. She was born in Puerto Rico but moved to New Jersey to raise her children. Eleven days after Hurricane Maria made landfall in Puerto Rico, she returned to uplift her community.</p></section>
+            <section className="panel gov8"><p ref={p5Ref}>Dash Scura of Babson College’s Rugby team practices before the 2023 Founder’s Cup in San Juan. Every year they come to Puerto Rico for the tournament they’ve used Sixto Escobar Stadium to practice.The team’s coach joined many locals in expressing disappointment at the possibility of losing the field. 
+
+</p></section>
           </Tween>
 {/* 6 */}
           <Tween
@@ -226,7 +234,8 @@ p12Ref.current.style.opacity = '1';
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel gov10"><p ref={p6Ref}>“It requires this action, and so we do this,” Pacheco said. “I think that one of the most empowering things for anyone is the ability to produce their own food, completely free of chemicals, completely free of pressure.” Community members seek autonomy from a government they feel has neglected them.</p></section>
+            <section className="panel gov10"><p ref={p6Ref}>Holding the Puerto Rican flag high, Migdalia Maria Ruiz protests all morning with Escambron Unido in front of the Hotel Normandie. Her sign reads “we want restoration, not more destruction.” Escambron Unido organizes on the street, while also maintaining a presence in the protest camp. 
+</p></section>
           </Tween>
 {/* 7 */}
 <Tween
@@ -242,7 +251,9 @@ p12Ref.current.style.opacity = '1';
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel gov12"><p ref={p7Ref}>Maria Pizarro (65) has lived in Loíza her whole life. She is a retired cafeteria worker that has been volunteering at Villa Canona since November 2022. The town’s connection to its community is one of Pizarro’s biggest reasons to stay. She sees her service to her community as understated.</p></section>
+            <section className="panel gov12"><p ref={p7Ref}>“This was our school,” says Enrique as he looks out on the ocean. Recovering from multiple surgeries and training to surf again, Enrique remains on the beach, watching his fellow surfers through binoculars, which he does every day. His connection to Escambron’s surfing community brought him to the camp. 
+
+</p></section>
           </Tween>
 {/* 8 */}
 <Tween
@@ -258,7 +269,9 @@ p12Ref.current.style.opacity = '1';
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel gov14"><p ref={p8Ref}>Villa Canona was founded to provide support to the community when the government was unable to. “We identify the problems, we look for solutions, we look for help to solve it, because the government is not going to come to do it for us.” said Rafael “Rafa” Rivera, the president of Villa Canona’s board.</p></section>
+            <section className="panel gov14"><p ref={p8Ref}>“All the surfers gather here. It’s a family, some of us have known each other for 50 years,” Enrique says. “We have waves elsewhere. This spot is sacred to us.”
+
+</p></section>
           </Tween>
 {/* 9 */}
 <Tween
@@ -274,7 +287,9 @@ p12Ref.current.style.opacity = '1';
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel gov16"><p ref={p9Ref}>A group of retired school cafeteria staff volunteer to cook at Villa Canona every week. The meals are boxed and hand-delivered to the elderly population in Loíza on Tuesday and Wednesday mornings. They don’t serve for big reasons, they serve because they can — a privilege that some in their community dont have.</p></section>
+            <section className="panel gov16"><p ref={p9Ref}>As a storm comes in, Enrique helps stake down another protestor’s tent. He takes an active role around the camp, doing what he can for others. “It’s the best therapy I’ve had in 3 years,” he says. Weathering storms on the water is a challenge that brings the camp together. 
+
+</p></section>
           </Tween>
 {/* 10 */}
 <Tween
@@ -290,7 +305,9 @@ p12Ref.current.style.opacity = '1';
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel bordeaux"><p ref={p10Ref}>In the center of Loíza sits Parroquia del Espíritu Santo y San Patricio, the town’s Catholic church. Constructed in 1645, it is one of Puerto Rico's oldest churches. The church represents an ethnically distinct community characterized by a rich Afro-Hispanic cultural and folk-craft tradition.</p></section>
+            <section className="panel bordeaux"><p ref={p10Ref}>“This is a local beach, where people come down from the mountains and grill out with their families,” says Enrique. As coastlines are monopolized by new developments, Escambron beach remains a haven for Puerto Ricans, not just for tourists.
+
+</p></section>
           </Tween>
 
           <Tween
@@ -306,7 +323,9 @@ p12Ref.current.style.opacity = '1';
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel bordeaux"><p ref={p11Ref}>Three women worship during a Wednesday evening service. The community seeks not only to support each other outside of church, but also to worship together and strengthen their faith in their town center.</p></section>
+            <section className="panel bordeaux"><p ref={p11Ref}>As Enrique relaxes in his hammock, protestors with Escambron Unido get ready for a demonstration behind him. Independent of all the coexisting protest groups, Enrique remains an intermediary, seeking to prevent the petty conflicts that can separate people with a common cause. 
+
+</p></section>
           </Tween>
 {/* 11.5 */}         
           <Tween
@@ -322,7 +341,8 @@ p12Ref.current.style.opacity = '1';
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel bordeaux"><p ref={p12Ref}>A priest leads Catholic Mass as a churchgoer raises his arms in worship. Throughout Puerto Rico, communities leaned on their faith to endure tragedies like Hurricane Maria and Irma, and Loíza is no different.</p></section>
+            <section className="panel bordeaux"><p ref={p12Ref}>Watching the sun set from his tent, Enrique rejects an offer to be told the time. “I’m seeing things in slow motion being out here for so long,” he says. “It’s kind of scary. I don’t know if I’ll be able to go back.”
+</p></section>
           </Tween>
 {/* END */}
 
