@@ -505,8 +505,16 @@
 .video-container-anchor {
   transform: translateX(calc(-56.25vw / 1.977));
   margin-top: 15vh;
-  margin-bottom: 135vh;
+  margin-bottom: 165vh;
 }
+
+@media screen and (min-aspect-ratio: 16/10) {
+  .video-container-anchor {
+    margin-bottom: 135vh;
+  }
+}
+ 
+
 
 .section-wrapper {
   transform: translateX(calc(-56.25vw / 1.977));
