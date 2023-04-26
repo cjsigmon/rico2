@@ -14,9 +14,6 @@
     position: relative;
 }
 
-.bg-home {
-    background: none;
-}
 
 
 
@@ -69,7 +66,6 @@
     opacity: 0;
   animation-name: fade-in;
   animation-duration: 2.8s;
-  animation-delay: 1.3s;
   animation-fill-mode: forwards;
 }
 
