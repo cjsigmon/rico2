@@ -12,7 +12,7 @@ export default function Tagline({ reporter, photo, video1, video2, inter, inter2
                   {video1 || video2 ? <p><b>Video</b><br></br>{video1}<br></br>{video2}</p> : <></>}
                   {inter ? <p><b>Interactive</b><br></br>{inter}{inter2 ? <><br></br>{inter2}</> : <></>}</p> : <></>}
                   {adpr ? <p><b>Ad/PR</b><br></br>{adpr}</p> : <></>}
-                  {upr ? <p><b>UPR student</b><br></br>{upr}</p> : <></>}
+                  {upr ? <p><b>Contributor</b><br></br>{upr}</p> : <></>}
                   <p></p>
             </div>
           </div>
