@@ -249,7 +249,7 @@
     }
 
     .panel p {
-      font-size: 3.4vh;
+      font-size: 3.4vh!important;
     }
 
    }

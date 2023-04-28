@@ -144,10 +144,10 @@ const Chronos = () => {
     let percentage = (scroll / tot) * 100;
     fillRef.current.style.width = percentage + "%";
     
-    if (percentage > 5) {
+    if (percentage > 12) {
       if (timeBgRef.current) {
         setBlurAmount(5);
-        setDarkAmount(75);
+        setDarkAmount(65);
       } 
     } 
     if (percentage < 5) {
@@ -174,6 +174,7 @@ const Chronos = () => {
             <h4>A timeline of</h4>
             <h1>Loíza’s long history</h1>
             <h4>The town has been subject to Spanish and American colonial governance since its settlement in the 1500s</h4>
+            <p style={{color: 'white', fontSize: '3.2vw', marginLeft: '3vh'}}> Scroll right to begin timeline</p>
           </div>
 
           <span id="progbar">

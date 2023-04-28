@@ -44,11 +44,7 @@ position:absolute;
   z-index: 1;
   width: 100vw;
   height: 100vh!important;
-  /* background-image: url('/img/timeline/2015.jpeg'); */
-  /* background-image: url('./img/timeline/timeline_background1.jpg');
-  background-size: cover;
-  background-position-y: center; */
-  /* background-color: #004E65; */
+  background-image: linear-gradient(to right, #000000, #341100, #d15b0000);
 }
 
 .blur-image {

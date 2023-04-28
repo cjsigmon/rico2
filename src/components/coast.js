@@ -28,7 +28,6 @@ class Coast extends Component {
         const lilly = document.getElementById('lilly');
         const biggy = document.getElementById('biggy');
  
-        console.log("RECT TOP: " + rect.top);
         if (rect.top <= 200 && this.first) {
             this.first = false;
             cover.style.display = 'none';
