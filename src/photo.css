@@ -248,4 +248,8 @@
       transform: translateX(-10vw);
     }
 
+    .panel p {
+      font-size: 3.4vh;
+    }
+
    }
