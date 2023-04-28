@@ -269,7 +269,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             src={amanda}/></div>
                         <h6 className="name-here">Amanda Jiménez Berríos</h6>
                         <p className="team-role">{conn}</p>
-                        <p className="team-role" style={{fontSize: "2vh"}}>Universidad de Sagrado Corazón</p>
+                        <p className="team-role" style={{fontSize: "1.4vh"}}>Universidad de Sagrado Corazón</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/amanda.9197/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/in/amanda-jimenez-berrios-699588263" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -384,7 +384,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             src={""}/></div>
                         <h6 className="name-here">Carlos Ramírez Brito</h6>
                         <p className="team-role">{conn}</p>
-                        <p className="team-role" style={{fontSize: "2vh"}}>Universidad de Sagrado Corazón</p>
+                        <p className="team-role" style={{fontSize: "1.4vh"}}>Universidad de Sagrado Corazón</p>
                         <div className="socials">
                         </div>
                     </div>   
@@ -579,7 +579,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             src={ivanna}/></div>
                         <h6 className="name-here">Ivanna Diaz Rivera</h6>
                         <p className="team-role">{conn}</p>
-                        <p className="team-role" style={{fontSize: "2vh"}}>University of Puerto Rico, Rio Piedras</p>
+                        <p className="team-role" style={{fontSize: "1.4vh"}}>University of Puerto Rico, Rio Piedras</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/ivannaadiaz/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                         </div>
@@ -627,7 +627,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             src={prstud}/></div>
                         <h6 className="name-here">Karina Torres Torres</h6>
                         <p className="team-role">{conn}</p>
-                        <p className="team-role" style={{fontSize: "2vh"}}>Universidad de Sagrado Corazón</p>
+                        <p className="team-role" style={{fontSize: "1.4vh"}}>Universidad de Sagrado Corazón</p>
                         <div className="socials">
                         </div>
                     </div>
@@ -706,7 +706,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             src={marivi}/></div>
                         <h6 className="name-here">María V. Ledesma Vazquez</h6>
                         <p className="team-role">{conn}</p>
-                        <p className="team-role" style={{fontSize: "2vh"}}>Universidad de Sagrado Corazón</p>
+                        <p className="team-role" style={{fontSize: "1.4vh"}}>Universidad de Sagrado Corazón</p>
                         <div className="socials">
                         </div>
                     </div>
@@ -852,7 +852,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             src={yondi}/></div>
                         <h6 className="name-here">Yondy Agosto García</h6>
                         <p className="team-role">{conn}</p>
-                        <p className="team-role" style={{fontSize: "2vh"}}>Universidad de Sagrado Corazón</p>
+                        <p className="team-role" style={{fontSize: "1.4vh"}}>Universidad de Sagrado Corazón</p>
                         <div className="socials">
                         </div>
                     </div>        
