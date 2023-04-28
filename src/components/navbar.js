@@ -11,6 +11,7 @@ import logo from '../img/logo/LOGO-white-nav.png'
 
 
 function Navbar (props) {
+  const BARS = <FontAwesomeIcon useSuspense={true} async icon={faBars} style={{color: "white", position: "fixed"}}/>;
   const { strI } = props;
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
@@ -156,7 +157,7 @@ function Navbar (props) {
             
             {/* <div class="mar"></div> */}
             <div className="mob-menu">
-              <span ref={barsRef} useSuspense={true} async onClick={handleHamClick}><FontAwesomeIcon icon={faBars} style={{color: "white", position: "fixed"}}/></span>
+              <span ref={barsRef} onClick={handleHamClick}>{BARS}</span>
               
               <Link id="mob-logo" to="/"><img id="mob-logo-img" src={logo} />
             </Link>
