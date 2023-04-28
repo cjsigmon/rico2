@@ -704,7 +704,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
                             src={marivi}/></div>
-                        <h6 className="name-here">María Victoria Ledesma</h6>
+                        <h6 className="name-here">María V. Ledesma Vazquez</h6>
                         <p className="team-role">{conn}</p>
                         <p className="team-role" style={{fontSize: "2vh"}}>Universidad de Sagrado Corazón</p>
                         <div className="socials">
