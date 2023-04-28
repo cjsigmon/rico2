@@ -196,7 +196,7 @@
   transform: translateX(calc(-28.125% + 5%));
   position: relative;
   margin-top: 15%;
-  margin-bottom: 115%;
+  margin-bottom: 121%;
 }
 
 #explain-anchor {
@@ -439,7 +439,7 @@
   opacity: 1;
  }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 480px) {
   .quote-wrapper-rel {
     padding-bottom: 60vh;
   }
@@ -449,11 +449,7 @@
   }
 
   .photo-frame-container {
-    margin-bottom: 60vh;
-  }
-
-  .more-thumbs {
-
+    margin-bottom: 90vh;
   }
 
   .readmore-hold img {
@@ -504,17 +500,15 @@
 
 .video-container-anchor {
   transform: translateX(calc(-56.25vw / 1.977));
-  margin-top: 15vh;
-  margin-bottom: 165vh;
+  margin-top: 20vh;
+  margin-bottom: 140vh;
 }
 
-@media screen and (min-aspect-ratio: 16/10) {
+@media screen and (max-aspect-ratio: 16/9) {
   .video-container-anchor {
-    margin-bottom: 135vh;
+    margin-bottom: 195vh;
   }
 }
- 
-
 
 .section-wrapper {
   transform: translateX(calc(-56.25vw / 1.977));

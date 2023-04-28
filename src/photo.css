@@ -243,4 +243,9 @@
     .drrk > img {
       box-shadow: none;
     }
+
+    .make-90-cont {
+      transform: translateX(-10vw);
+    }
+
    }

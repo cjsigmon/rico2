@@ -65,7 +65,7 @@ if (first) {
       storyTeam.video2 = 'Taylor Holbrooks';
       storyTeam.inter = 'Gina Flow';
       storyTeam.adpr = 'Florencia Loncán';
-      storyTeam.upr = 'Karina Torres';
+      storyTeam.upr = 'Karina Torres Torres';
       storyTeam.theme = 'ENVIRONMENT';
       storyTeam.slug = '/against-the-current';
       storyTeam.altSlug = '/ambiente';
@@ -152,7 +152,7 @@ if (first) {
       storyTeam.video2 = 'Taylor Holbrooks';
       storyTeam.inter = 'Gina Flow';
       storyTeam.adpr = 'Florencia Loncán';
-      storyTeam.upr = 'Karina Torres';
+      storyTeam.upr = 'Karina Torres Torres';
       storyTeam.theme = 'ENVIRONMENT';
       storyTeam.slug = '/ambiente';
       storyTeam.altSlug = '/against-the-current';
