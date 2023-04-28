@@ -156,7 +156,7 @@ function Navbar (props) {
             
             {/* <div class="mar"></div> */}
             <div className="mob-menu">
-              <span ref={barsRef} onClick={handleHamClick}><FontAwesomeIcon icon={faBars} style={{color: "white", position: "fixed"}}/></span>
+              <span ref={barsRef} useSuspense={true} async onClick={handleHamClick}><FontAwesomeIcon icon={faBars} style={{color: "white", position: "fixed"}}/></span>
               
               <Link id="mob-logo" to="/"><img id="mob-logo-img" src={logo} />
             </Link>

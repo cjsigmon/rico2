@@ -13,9 +13,9 @@ export default function VideoComp({ left, link, color }) {
     const showRef = useRef(null);
     const progRef = useRef(null);
     const [playing, setPlaying] = useState(false);
-    const PLAY = <FontAwesomeIcon icon={faPlay} color={color}/>;
-    const PAUSE = <FontAwesomeIcon icon={faPause} color={color}/>;
-    const FULLSCREEN = <FontAwesomeIcon icon={faExpand} color={color}/>;
+    const PLAY = <FontAwesomeIcon useSuspense={false} async icon={faPlay} color={color}/>;
+    const PAUSE = <FontAwesomeIcon useSuspense={false} async icon={faPause} color={color}/>;
+    const FULLSCREEN = <FontAwesomeIcon useSuspense={true} async icon={faExpand} color={color}/>;
     const vidBtnRef = useRef(null);
     const elementRef = useRef(null);
     const dotRef = useRef(null);
