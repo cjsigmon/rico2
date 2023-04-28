@@ -254,7 +254,7 @@ p13Ref.current.style.opacity = '1';
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel gov12"><p ref={p7Ref}>Cepeda and her partner, Luis Ramon, watch the Puerto Rico baseball game on his phone while walking around San Juan on a Saturday. Also working to combat addiction, Ramon understands the emotional toll it takes on her mental health. Together, they are able to create a safe space to process those emotions.</p></section>
+            <section className="panel gov12"><p ref={p7Ref}>Cepeda and her partner, Luis Román, watch the Puerto Rico baseball game on his phone while walking around San Juan on a Saturday. Also working to combat addiction, Román understands the emotional toll it takes on her mental health. Together, they are able to create a safe space to process those emotions.</p></section>
           </Tween>
 {/* 13 */}
 <Tween
@@ -270,7 +270,7 @@ p13Ref.current.style.opacity = '1';
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel gov14"><p ref={p8Ref}>Cepeda and her daughter Andrea Correa wait for Ramon as he consoles a former patient that he randomly bumped into. Their years spent doing this work has had a large impact, therefore it is not uncommon for Cepeda or Ramon to encounter people they have helped throughout Puerto Rico.
+            <section className="panel gov14"><p ref={p8Ref}>Cepeda and her daughter Andrea Correa wait for Román as he consoles a former patient that he randomly bumped into. Their years spent doing this work has had a large impact, therefore it is not uncommon for Cepeda or Román to encounter people they have helped throughout Puerto Rico.
 </p></section>
           </Tween>
 {/* 15 */}

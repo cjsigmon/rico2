@@ -42,6 +42,8 @@ import taylor from '../video-headshot/TaylorHS.mp4';
 import thomas from '../video-headshot/ThomasHS.mp4';
 import yondi from '../video-headshot/YondiHS.mp4';
 import amandaPoster from '../img/headshot-stills/amanda-still.png';
+import carlosPoster from '../img/headshot-stills/carlos-still.jpg';
+import hermesPoster from '../img/headshot-stills/hermes-still.jpg';
 import { set } from "lodash";
 
 
@@ -267,6 +269,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             src={amanda}/></div>
                         <h6 className="name-here">Amanda Jiménez Berríos</h6>
                         <p className="team-role">{conn}</p>
+                        <p className="team-role" style={{fontSize: "2vh"}}>Universidad de Sagrado Corazón</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/amanda.9197/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                             <a href="https://www.linkedin.com/in/amanda-jimenez-berrios-699588263" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
@@ -371,6 +374,20 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             <a href="https://www.linkedin.com/in/calebsigmon/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                         </div>
                     </div>
+
+                    <div className={`card con com ${hidCon ? 'hidden' : 'vis'}`}>
+                    <div className="pic-box"><video
+                            loop
+                            preload="metadata"
+                            muted={true}
+                            poster={carlosPoster}
+                            src={""}/></div>
+                        <h6 className="name-here">Carlos Ramírez Brito</h6>
+                        <p className="team-role">{conn}</p>
+                        <p className="team-role" style={{fontSize: "2vh"}}>Universidad de Sagrado Corazón</p>
+                        <div className="socials">
+                        </div>
+                    </div>   
 
                     <div className={`card des pow ${hidDes ? 'hidden' : 'vis'}`}>
                     <div className="pic-box"><video
@@ -535,6 +552,23 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         </div>
                     </div>
 
+                    <div className={`card con coach ${hidCon ? 'hidden' : 'vis'}`}>
+                    <div className="pic-box"><video
+                            loop
+                            preload="metadata"
+                            muted={true}
+                            poster={hermesPoster}
+                            src={""}/></div>
+                        <h6 className="name-here">Hermes Ayala</h6>
+                        <p className="team-role">{conn}</p>
+                        <p className="team-role" style={{fontSize: "2vh"}}></p>
+                        <div className="socials">
+                            <a href="https://www.instagram.com/hermesayalaaqui/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://www.linkedin.com/in/hermes-ayala-230b5a9b/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                            <a href="https://twitter.com/traficopesado" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                        </div>
+                    </div>  
+
                     <div className={`card coach ${hidCon ? 'hidden' : 'vis'}`}>
                     <div className="pic-box"><video
                             loop
@@ -545,6 +579,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             src={ivanna}/></div>
                         <h6 className="name-here">Ivanna Diaz Rivera</h6>
                         <p className="team-role">{conn}</p>
+                        <p className="team-role" style={{fontSize: "2vh"}}>University of Puerto Rico, Rio Piedras</p>
                         <div className="socials">
                             <a href="https://www.instagram.com/ivannaadiaz/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                         </div>
@@ -592,6 +627,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             src={prstud}/></div>
                         <h6 className="name-here">Karina Torres Torres</h6>
                         <p className="team-role">{conn}</p>
+                        <p className="team-role" style={{fontSize: "2vh"}}>Universidad de Sagrado Corazón</p>
                         <div className="socials">
                         </div>
                     </div>
@@ -668,8 +704,9 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
                             src={marivi}/></div>
-                        <h6 className="name-here">Marivi</h6>
+                        <h6 className="name-here">María Victoria Ledesma</h6>
                         <p className="team-role">{conn}</p>
+                        <p className="team-role" style={{fontSize: "2vh"}}>Universidad de Sagrado Corazón</p>
                         <div className="socials">
                         </div>
                     </div>
@@ -815,6 +852,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             src={yondi}/></div>
                         <h6 className="name-here">Yondy Agosto García</h6>
                         <p className="team-role">{conn}</p>
+                        <p className="team-role" style={{fontSize: "2vh"}}>Universidad de Sagrado Corazón</p>
                         <div className="socials">
                         </div>
                     </div>        
