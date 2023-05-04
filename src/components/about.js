@@ -17,14 +17,15 @@ import cynthia from '../video-headshot/CynthiaHS.mp4';
 import dylan from '../video-headshot/DylanHS.mp4';
 import emily from '../video-headshot/EmilyHS.mp4';
 import fallon from '../video-headshot/FallonHS.mp4';
-import florencia from '../video-headshot/FlorenciaHS.mp4';
+
+import florencia from '../video-headshot/FlorenciaEditHS.mp4';
 import gerard from '../video-headshot/GerardHS.mp4';
 import gina from '../video-headshot/GinaHS.mp4';
 import giuli from '../video-headshot/GiuliHS.mp4';
 import heather from '../video-headshot/HeatherHS.mp4';
 import ivanna from '../video-headshot/IvannaHS.mp4';
 import jacob from '../video-headshot/JacobHS.mp4';
-import jennifer from '../video-headshot/JenniferHS.mp4';
+import jennifer from '../video-headshot/JenniferEditHS.mp4';
 import lauren from '../video-headshot/LaurenHS.mp4';
 import liana from '../video-headshot/Liana.mp4';
 import liv from '../video-headshot/LivHS.mp4';
@@ -41,7 +42,15 @@ import sam from '../video-headshot/SamanthaHS.mp4';
 import taylor from '../video-headshot/TaylorHS.mp4';
 import thomas from '../video-headshot/ThomasHS.mp4';
 import yondi from '../video-headshot/YondiHS.mp4';
+import alexPoster from '../img/headshot-stills/alex.jpg';
+import allyPoster from '../img/headshot-stills/ally.jpg';
+import angelinaPoster from '../img/headshot-stills/angelina.jpg';
+import annPoster from '../img/headshot-stills/ann.jpg';
+import annaPoster from '../img/headshot-stills/anna.jpg';
+import bellaPoster from '../img/headshot-stills/bella.jpg';
 import amandaPoster from '../img/headshot-stills/amanda-still.png';
+import jenniferPoster from '../img/headshot-stills/jennifer.png';
+import florenciaPoster from '../img/headshot-stills/florencia.png';
 import carlosPoster from '../img/headshot-stills/carlos-still.jpg';
 import hermesPoster from '../img/headshot-stills/hermes-still.jpg';
 import { set } from "lodash";
@@ -220,12 +229,13 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                 <div className={`card coach ${hidCoach ? 'hidden' : 'vis'}`}>
                         <div className="pic-box">
                             <video
-                            loop
+                            loo
                             preload="metadata"
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
                             id="alex-vid"
+                            poster={alexPoster}
                             src={alex}/>
                         </div>
                         <h6 className="name-here">Alex Kormann</h6>
@@ -246,6 +256,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={allyPoster}
                             src={ally}/></div>
                         <h6 className="name-here">Ally Rabon</h6>
                         <p className="team-role">Video</p>
@@ -283,6 +294,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={angelinaPoster}
                             src={angelina}/></div>
                         <h6 className="name-here">Angelina Katsanis</h6>
                         <p className="team-role">Video</p>
@@ -301,6 +313,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={annPoster}
                             src={ann}/></div>
                         <h6 className="name-here">Ann Licharew</h6>
                         <p className="team-role">Video</p>
@@ -316,6 +329,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={annaPoster}
                             src={anna}/></div>
                         <h6 className="name-here">Anna Connors</h6>
                         <p className="team-role">{photo}</p>
@@ -333,6 +347,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={bellaPoster}
                             src={bella}/></div>
                         <h6 className="name-here">Bella Cankurtaran</h6>
                         <p className="team-role">{adPR}</p>
@@ -475,10 +490,12 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                     <div className={`card adp com ${hidAdp ? 'hidden' : 'vis'}`}>
                     <div className="pic-box"><video
                             loop
+                            poster={florenciaPoster}
                             preload="metadata"
                             muted={true}
                             onMouseOver={event => event.target.play()}
-                            onMouseLeave={handleMouseOut}
+                            onMouseLeave={event => {event.target.pause();
+                                event.target.currentTime = 0.5;}}
                             src={florencia}/></div>
                         <h6 className="name-here">Florencia Loncán</h6>
                         <p className="team-role">{adPR}</p>
@@ -552,7 +569,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                         </div>
                     </div>
 
-                    <div className={`card con coach ${hidCon ? 'hidden' : 'vis'}`}>
+                    <div className={`card coach ${hidCoach ? 'hidden' : 'vis'}`}>
                     <div className="pic-box"><video
                             loop
                             preload="metadata"
@@ -560,7 +577,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             poster={hermesPoster}
                             src={""}/></div>
                         <h6 className="name-here">Hermes Ayala</h6>
-                        <p className="team-role">{conn}</p>
+                        <p className="team-role">{coach}</p>
                         <p className="team-role" style={{fontSize: "2vh"}}></p>
                         <div className="socials">
                             <a href="https://www.instagram.com/hermesayalaaqui/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
@@ -607,7 +624,9 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             preload="metadata"
                             muted={true}
                             onMouseOver={event => event.target.play()}
-                            onMouseLeave={handleMouseOut}
+                            onMouseLeave={event => {event.target.pause();
+                                event.target.currentTime = 3;} }
+                            poster={jenniferPoster}
                             src={jennifer}/></div>
                         <h6 className="name-here">Jennifer Tran</h6>
                         <p className="team-role">Video</p>
