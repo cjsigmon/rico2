@@ -48,6 +48,36 @@ import angelinaPoster from '../img/headshot-stills/angelina.jpg';
 import annPoster from '../img/headshot-stills/ann.jpg';
 import annaPoster from '../img/headshot-stills/anna.jpg';
 import bellaPoster from '../img/headshot-stills/bella.jpg';
+
+import brookePoster from '../img/headshot-stills/brooke.jpg';
+import calebPoster from '../img/headshot-stills/caleb.jpg';
+import claraPoster from '../img/headshot-stills/clara.jpg';
+import cynthiaPoster from '../img/headshot-stills/cynthia.jpg';
+import dylanPoster from '../img/headshot-stills/dylan.jpg';
+import emilyPoster from '../img/headshot-stills/emily.jpg';
+import fallonPoster from '../img/headshot-stills/fallon.jpg';
+import gerardPoster from '../img/headshot-stills/gerard.jpg';
+import ginaPoster from '../img/headshot-stills/gina.jpg';
+import giuliPoster from '../img/headshot-stills/giuli.jpg';
+import heatherPoster from '../img/headshot-stills/heather.jpg';
+import ivannaPoster from '../img/headshot-stills/ivanna.jpg';
+import jacobPoster from '../img/headshot-stills/jacob.jpg';
+import karinaPoster from '../img/headshot-stills/karina.jpg';
+import laurenPoster from '../img/headshot-stills/lauren.jpg';
+import lianaPoster from '../img/headshot-stills/liana.jpg';
+import livPoster from '../img/headshot-stills/liv.jpg';
+import lucasPoster from '../img/headshot-stills/lucas.jpg';
+import mariviPoster from '../img/headshot-stills/marivi.jpg';
+import ninaPoster from '../img/headshot-stills/nina.jpg';
+import patPoster from '../img/headshot-stills/pat.jpg';
+import prestonPoster from '../img/headshot-stills/preston.jpg';
+import quincyPoster from '../img/headshot-stills/quincy.jpg';
+import ryanPoster from '../img/headshot-stills/ryan.jpg';
+import samPoster from '../img/headshot-stills/sam.jpg';
+import taylorPoster from '../img/headshot-stills/taylor.jpg';
+import thomasPoster from '../img/headshot-stills/thomas.jpg';
+import yondyPoster from '../img/headshot-stills/yondy.jpg';
+
 import amandaPoster from '../img/headshot-stills/amanda-still.png';
 import jenniferPoster from '../img/headshot-stills/jennifer.png';
 import florenciaPoster from '../img/headshot-stills/florencia.png';
@@ -365,6 +395,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={brookePoster}
                             src={brooke}/></div>
                         <h6 className="name-here">Brooke Fisher</h6>
                         <p className="team-role">{coach}</p>
@@ -382,6 +413,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={calebPoster}
                             src={caleb}/></div>
                         <h6 className="name-here">Caleb Sigmon</h6>
                         <p className="team-role">{devv}</p>
@@ -411,6 +443,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={claraPoster}
                             src={clara}/></div>
                         <h6 className="name-here">Clara Mello</h6>
                         <p className="team-role">{dez}</p>
@@ -427,6 +460,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={cynthiaPoster}
                             src={cynthia}/></div>
                         <h6 className="name-here">Cynthia Liu</h6>
                         <p className="team-role">Video</p>
@@ -444,6 +478,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={dylanPoster}
                             src={dylan}/></div>
                         <h6 className="name-here">Dylan Thiessen</h6>
                         <p className="team-role">{photo}</p>
@@ -460,6 +495,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={emilyPoster}
                             src={emily}/></div>
                         <h6 className="name-here">Emily Gajda</h6>
                         <p className="team-role">{repp}</p>
@@ -478,6 +514,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={fallonPoster}
                             src={fallon}/></div>
                         <h6 className="name-here">Fallon Maher</h6>
                         <p className="team-role">Video</p>
@@ -513,6 +550,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={gerardPoster}
                             src={gerard}/></div>
                         <h6 className="name-here">Gerard Millman</h6>
                         <p className="team-role">Video</p>
@@ -530,6 +568,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={ginaPoster}
                             src={gina}/></div>
                         <h6 className="name-here">Gina Flow</h6>
                         <p className="team-role">{dez}</p>
@@ -544,6 +583,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={giuliPoster}
                             src={giuli}/></div>
                         <h6 className="name-here">Giuli Hoffmann</h6>
                         <p className="team-role">{dez}</p>
@@ -560,6 +600,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={heatherPoster}
                             src={heather}/></div>
                         <h6 className="name-here">Heather Diehl</h6>
                         <p className="team-role">{photo}</p>
@@ -593,6 +634,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={ivannaPoster}
                             src={ivanna}/></div>
                         <h6 className="name-here">Ivanna Diaz Rivera</h6>
                         <p className="team-role">{conn}</p>
@@ -609,6 +651,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={jacobPoster}
                             src={jacob}/></div>
                         <h6 className="name-here">Jacob Turner</h6>
                         <p className="team-role">{dezDev}</p>
@@ -643,6 +686,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={karinaPoster}
                             src={prstud}/></div>
                         <h6 className="name-here">Karina Torres Torres</h6>
                         <p className="team-role">{conn}</p>
@@ -658,6 +702,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={laurenPoster}
                             src={lauren}/></div>
                         <h6 className="name-here">Lauren Cmiel</h6>
                         <p className="team-role">Video</p>
@@ -674,6 +719,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={lianaPoster}
                             src={liana}/></div>
                         <h6 className="name-here">Liana Pinner</h6>
                         <p className="team-role">{coach}</p>
@@ -688,6 +734,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={livPoster}
                             src={liv}/></div>
                         <h6 className="name-here">Liv Reilly</h6>
                         <p className="team-role">{repp}</p>
@@ -705,6 +752,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={lucasPoster}
                             src={lucas}/></div>
                         <h6 className="name-here">Lucas Thomae</h6>
                         <p className="team-role">{repp}</p>
@@ -722,6 +770,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={mariviPoster}
                             src={marivi}/></div>
                         <h6 className="name-here">María V. Ledesma Vazquez</h6>
                         <p className="team-role">{conn}</p>
@@ -737,6 +786,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={ninaPoster}
                             src={nina}/></div>
                         <h6 className="name-here">Nina Scott</h6>
                         <p className="team-role">{dezDev}</p>
@@ -752,6 +802,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={patPoster}
                             src={pat}/></div>
                         <h6 className="name-here">Patrick Davison</h6>
                         <p className="team-role">{coach}</p>
@@ -768,6 +819,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={prestonPoster}
                             src={preston}/></div>
                         <h6 className="name-here">Preston Fore</h6>
                         <p className="team-role">{repp}</p>
@@ -785,6 +837,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={quincyPoster}
                             src={quincy}/></div>
                         <h6 className="name-here">Quincy Marks</h6>
                         <p className="team-role">Video</p>
@@ -801,6 +854,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={ryanPoster}
                             src={ryan}/></div>
                         <h6 className="name-here">Ryan Thornburg</h6>
                         <p className="team-role">{coach}</p>
@@ -816,6 +870,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={samPoster}
                             src={sam}/></div>
                         <h6 className="name-here">Samantha Lewis</h6>
                         <p className="team-role">{photo}</p>
@@ -834,6 +889,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={taylorPoster}
                             src={taylor}/></div>
                         <h6 className="name-here">Taylor Holbrooks</h6>
                         <p className="team-role">Video</p>
@@ -851,6 +907,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={thomasPoster}
                             src={thomas}/></div>
                         <h6 className="name-here">Thomas Moody-Jones</h6>
                         <p className="team-role">{repp}</p>
@@ -868,6 +925,7 @@ As part of an annual project by <a href="http://hussman.unc.edu/" target="_blank
                             muted={true}
                             onMouseOver={event => event.target.play()}
                             onMouseLeave={handleMouseOut}
+                            poster={yondyPoster}
                             src={yondi}/></div>
                         <h6 className="name-here">Yondy Agosto García</h6>
                         <p className="team-role">{conn}</p>
