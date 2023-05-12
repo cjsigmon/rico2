@@ -407,6 +407,7 @@
   bottom: 50%;
   transform: translateY(50%);
   opacity: 0;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #powread {
@@ -417,14 +418,15 @@
 }
 #govread {
   color: var(--governance);
+  text-shadow: 2px 2px 4px #ffffff;
 }
 #envread {
   color: var(--environment);
-  /* background-color: rgba(255, 255, 255, 0.733); */
+  text-shadow: 2px 2px 4px #ffffff;
 }
 #hearead {
   color: var(--healthcare);
-  /* background-color: rgba(255, 255, 255, 0.733); */
+  text-shadow: 2px 2px 4px #ffffff;
 }
 
 .readmore-hold img {

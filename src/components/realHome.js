@@ -1,9 +1,8 @@
 import * as React from "react";
-import { useState, useContext } from "react";
+import { useContext } from "react";
 import { useStaticQuery, graphql, Link } from "gatsby";
 import Navbar from "../components/navbar";
 import '../styles.css';
-import HeaderImg from "../components/header";
 import HeaderVid from "./headervid";
 import Footer from "../components/footer";
 import MyContext from "../MyContext";
@@ -38,62 +37,58 @@ const HomePage = () =>  {
               <div className="l-mar"></div>
               <div></div>
               <div id="main-about" className="post-text">
-                  {/* <h2 className="main-about-title">{myBoolean? "ABOUT" : "SOBRE"}</h2>
-                  <p>{myBoolean? "This site encompasses 5 multimedia documentaries about Puerto Rico—its people, problems and passions. It was created by a group of 30 journalism students at UNC-Chapel Hill with help from dozens of sources, local producers and professional coaches." : "Span about"}
-                  </p> */}
               </div>
               <div className="r-stry-mar"></div>
               <div className="r-mar"></div>
              </div>
 
-  
             <VideoComp left={0} color={'white'} link={"https://player.vimeo.com/video/820916929?h=f4fc4a47fa&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"}/>
             
            {myBoolean ?
            <>
            <div className="home-story-pics" id={"POWER"}>
            <div className={"clickme bl"} id="rcl">
-             <Link className="cl-title" to={ "/paso-a-paso" }>
+             <Link className="cl-title" to={ "/step-by-step" }>
                <h5>READ THIS STORY</h5>
              </Link>
            </div>
            <div className={"left-title"}>
-             <Link to={ "/paso-a-paso" }><h1 className="home-title" id={"POWER-home-title"}>STEP BY STEP</h1></Link>
+             <Link to={ "/step-by-step" }><h1 className="home-title" id={"POWER-home-title"}>STEP BY STEP</h1></Link>
              <p className={"home-subtitle lsub"} id={"POWER-subtitle"}>Puerto Rico’s electrical recovery and the efforts for a sustainable future</p>
            </div>
          </div>
          <div className="home-story-pics" id={"COMMUNITY"}>
            <div className={"clickme bl"} id="lcl">
-             <Link className="cl-title" to={ "/community" }>
+             <Link className="cl-title" to={ "/a-cultural-anchor" }>
                <h5>READ THIS STORY</h5>
              </Link>
            </div>
            <div className={"right-title"}>
-             <Link to={ "/community" }><h1 className="home-title" id={"COMMUNITY-home-title"}>A CULTURAL ANCHOR</h1></Link>
+             <Link to={ "/a-cultural-anchor" }><h1 className="home-title" id={"COMMUNITY-home-title"}>A CULTURAL ANCHOR</h1></Link>
              <p className={"home-subtitle rsub"} id={"COMMUNITY-subtitle"}>As schools close all across the island, community centers reclaim their spaces</p>
            </div>
          </div>
 
          <div className="home-story-pics" id={"GOVERNANCE"}>
            <div className={"clickme bl"} id="rcl">
-             <Link className="cl-title" to={ "/governance" }>
+             <Link className="cl-title" to={ "/resistant-not-resilient" }>
                <h5>READ THIS STORY</h5>
              </Link>
            </div>
            <div className={"left-title"}>
-             <Link to={ "/governance" }><h1 className="home-title" id={"GOVERNANCE-home-title"}>RESISTANT, NOT RESILIENT</h1></Link>
+             <Link to={ "/resistant-not-resilient" }><h1 className="home-title" id={"GOVERNANCE-home-title"}>RESISTANT, NOT RESILIENT</h1></Link>
              <p className={"home-subtitle lsub"} id={"POWER-subtitle"}>Loíza builds its own support systems while looking to its future</p>
            </div>
          </div>
 
          <div className="home-story-pics" id={"ENVIRONMENT"}>
            <div className={"clickme wh"} id="lcl">
-             <Link className="cl-title" to={ "/against-the-current" }>
+             <Link className="cl-title" to={ "/shifting-tides" }>
                <h5>READ THIS STORY</h5>
              </Link>
            </div>
            <div className={"right-title"}>
-             <Link to={ "/against-the-current" }><h1 className="home-title" id={"ENVIRONMENT-home-title"}>SHIFTING TIDES</h1></Link>
+             <Link to={ "/shifting-tides" }><h1 className="home-title" id={"ENVIRONMENT-home-title"}>SHIFTING TIDES</h1></Link>
              <p className={"home-subtitle rsub"} id={"ENVIRONMENT-subtitle"}>A community’s fight against waves of environmental injustice and unjust development</p>
            </div>
          </div>
@@ -111,11 +106,6 @@ const HomePage = () =>  {
          </div>
            </>
            
-         
-
-
-
-
             : <>
             <div className="home-story-pics" id={"POWER"}>
             <div className={"clickme bl"} id="rcl">
@@ -177,9 +167,6 @@ const HomePage = () =>  {
           </div>
             </>}
               
-       
-
-
               <Footer strI={0}/>
           </main>        
         )

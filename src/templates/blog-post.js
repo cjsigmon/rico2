@@ -67,7 +67,7 @@ if (first) {
       storyTeam.adpr = 'Florencia Loncán';
       storyTeam.upr = 'Karina Torres Torres';
       storyTeam.theme = 'ENVIRONMENT';
-      storyTeam.slug = '/against-the-current';
+      storyTeam.slug = '/shifting-tides';
       storyTeam.altSlug = '/ambiente';
       storyTeam.phoSlug = '/envphoto';
       color =  {color: '#3EAAA7'};
@@ -84,7 +84,7 @@ if (first) {
       storyTeam.inter = 'Nina Scott';
       storyTeam.upr = 'Carlos Ramírez Brito';
       storyTeam.theme = 'COMMUNITY';
-      storyTeam.slug = '/community';
+      storyTeam.slug = '/a-cultural-anchor';
       storyTeam.altSlug = '/comunidad';
       storyTeam.phoSlug = '/comphoto';
       color = {color: '#FFAD00'};
@@ -101,7 +101,7 @@ if (first) {
       storyTeam.inter = 'Giuli Hoffmann';
       storyTeam.upr = 'Amanda Jiménez Berríos';
       storyTeam.theme = 'GOVERNANCE';
-      storyTeam.slug = '/governance';
+      storyTeam.slug = '/resistant-not-resilient';
       storyTeam.altSlug = '/gobernancia';
       storyTeam.phoSlug = '/govphoto';
       color = {color: '#FF6600'};
@@ -118,7 +118,7 @@ if (first) {
       storyTeam.photo = "Dylan Thiessen";
       storyTeam.upr = 'Yondy Agosto García';
       storyTeam.theme = 'POWER';
-      storyTeam.slug = '/paso-a-paso';
+      storyTeam.slug = '/step-by-step';
       storyTeam.altSlug = '/fuerza';
       storyTeam.phoSlug = '/powphoto';
       color = {color: '#F3CB47'};
@@ -155,7 +155,7 @@ if (first) {
       storyTeam.upr = 'Karina Torres Torres';
       storyTeam.theme = 'ENVIRONMENT';
       storyTeam.slug = '/ambiente';
-      storyTeam.altSlug = '/against-the-current';
+      storyTeam.altSlug = '/shifting-tides';
       color =  {color: '#3EAAA7'};  
       if (strI !== 9) {
         setStrI(9);
@@ -170,7 +170,7 @@ if (first) {
       storyTeam.upr = 'Carlos Ramírez Brito';
       storyTeam.theme = 'COMMUNITY';
       storyTeam.slug = '/comunidad';
-      storyTeam.altSlug = '/community';
+      storyTeam.altSlug = '/a-cultural-anchor';
       color = {color: '#FFAD00'};
       if (strI !== 7) {
         setStrI(7);
@@ -185,7 +185,7 @@ if (first) {
       storyTeam.upr = 'Amanda Jiménez Berríos';
       storyTeam.theme = 'GOVERNANCE';
       storyTeam.slug = '/gobernancia';
-      storyTeam.altSlug = '/governance';
+      storyTeam.altSlug = '/resistant-not-resilient';
       color = {color: '#FF6600'};
       if (strI !== 8) {
         setStrI(8);
@@ -200,7 +200,7 @@ if (first) {
       storyTeam.upr = 'Yondy Agosto García';
       storyTeam.theme = 'POWER';
       storyTeam.slug = '/fuerza';
-      storyTeam.altSlug = '/paso-a-paso';
+      storyTeam.altSlug = '/step-by-step';
       color = {color: '#F3CB47'};
       if (strI !== 6) {
         setStrI(6);
@@ -347,6 +347,7 @@ useEffect(() => {
 
   return (
     <MyContext.Provider value={{ myBoolean, setMyBoolean }}>
+      <title>{post.title} | Isla de Fuerza</title>
     <main>
     {/* <Seo title={post.title} description={post.excerpt} /> */}
     {isVisible && <Navbar strI={strI}/>}
@@ -372,12 +373,7 @@ useEffect(() => {
 
 
 
-// function replaceImgWithCustomImage(htmlString) {
-//   const customImageRegex = /<figure[^>]+class="wp-block-image size-large"[^>]*>([\s\S]*?)<\/figure>/g;
-//   const replacedHtmlString = htmlString.replace(customImageRegex, '<img src="https://picsum.photos/id/237/200/300" />'); // Replace <img> tags with <CustomImage> component
 
-//   return { __html: replacedHtmlString }; // Set the dangerouslySetInnerHTML attribute with the new HTML string
-// }
 
 
 export default BlogPostTemplate;

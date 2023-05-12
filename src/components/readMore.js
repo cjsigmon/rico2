@@ -5,7 +5,6 @@ import powImage from '../img/power.png';
 import healthImage from '../img/healthcare.jpg';
 import envImage from '../img/environment.jpg';
 import comImage from '../img/community.jpg';
-import { useStaticQuery, graphql } from "gatsby"
 import MyContext from "../MyContext";
 import { useContext, useEffect, useState } from "react";
 
@@ -13,10 +12,10 @@ export default function ReadMore(props) {
     const { strI } = props;
     const { myBoolean, setMyBoolean } = useContext(MyContext);
     const [ exclude, setExclude] = useState(" ");
-    const envLink = "/against-the-current";
-    const comLink = "/community";
-    const govLink = "/governance";
-    const powLink = "/paso-a-paso";
+    const envLink = "/shifting-tides";
+    const comLink = "/a-cultural-anchor";
+    const govLink = "/resistant-not-resilient";
+    const powLink = "/step-by-step";
     const healthLink = "/road-to-recovery";
 
     const ambLink = "/ambiente";

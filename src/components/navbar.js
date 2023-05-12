@@ -9,7 +9,6 @@ import logo from '../img/logo/LOGO-white-nav.png'
 // help from https://www.rolandwrites.com/blog/sticky-navbar-hides-scroll
 
 
-
 function Navbar (props) {
   const BARS = <FontAwesomeIcon useSuspense={true} async icon={faBars} style={{color: "white", position: "fixed"}}/>;
   const { strI } = props;
@@ -17,15 +16,9 @@ function Navbar (props) {
   const [visible, setVisible] = useState(true);
   const [dark, setDark] = useState(false);
   const [hamMenu, setHamMenu] = useState(false);
-  const [first, setFirst] = useState(true);
   const { myBoolean, setMyBoolean } = useContext(MyContext);
   const [english, setEnglish ] = useState(true);
   const barsRef = useRef(null);
-
-  const [isWindowLoaded, setIsWindowLoaded] = useState(false);
-
-
-
 
   const data = useStaticQuery(graphql`
     {
@@ -59,17 +52,11 @@ function Navbar (props) {
         setMyBoolean(false);
       } 
   }, [english]);
-
   // new useEffect:
   useEffect(() => {
-    
-
-
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, [prevScrollPos, visible, handleScroll]);
-
-
 
   const handleButtonClick = () => {
     switch(strI) {
@@ -77,54 +64,42 @@ function Navbar (props) {
         setEnglish(!english);
         setMyBoolean(!myBoolean);
         break;
-
       case 1:
         window.location.href = "/paso-a-paso-esp";
         break;
-
-        case 2:
-          window.location.href = "/comunidad";
-          break;
-
-          case 3:
+      case 2:
+        window.location.href = "/comunidad";
+        break;
+      case 3:
         window.location.href = "/gobernancia";
         break;
-
-        case 4:
+      case 4:
         window.location.href = "/ambiente";
         break;
-
-        case 5:
+      case 5:
         window.location.href = "/salud";
         break;
-
-        case 6:
-        window.location.href = "/paso-a-paso";
+      case 6:
+        window.location.href = "/step-by-step";
         break;
-
-        case 7:
-        window.location.href = "/community";
+      case 7:
+        window.location.href = "/a-cultural-anchor";
         break;
-
-        case 8:
-        window.location.href = "/governance";
+      case 8:
+        window.location.href = "/resistant-not-resilient";
         break;
-
-        case 9:
-        window.location.href = "/against-the-current";
+      case 9:
+        window.location.href = "/shifting-tides";
         break;
-
-        case 10:
+      case 10:
         window.location.href = "/road-to-recovery";
         break;
-
-        case 11:
-          window.location.href = "/sobre";
-          break;
-
-          case 12:
-          window.location.href = "/about";
-          break;
+      case 11:
+        window.location.href = "/sobre";
+        break;
+      case 12:
+        window.location.href = "/about";
+        break;
     } 
   };
 
@@ -144,18 +119,10 @@ function Navbar (props) {
     setHamMenu(!hamMenu);
   };
 
-
-  // const { allEnPost } = data.engl;
-
   const sobreId = "cG9zdDoyMDc=";
-
-
     return (
       <>
-      {/* <FontAwesomeIcon icon={faBars} style={{color: "white", position: "fixed",}}/> */}
       <div ref={navRef} className={`navbar ${dark ? 'dark' : ''} ${visible ? 'visible' : ''}`}>
-            
-            {/* <div class="mar"></div> */}
             <div className="mob-menu">
               <span ref={barsRef} onClick={handleHamClick}>{BARS}</span>
               
@@ -163,7 +130,6 @@ function Navbar (props) {
             </Link>
             </div>
             
-
             <Link className="nav-logo" to="/"><img id="desk-logo-img" src={logo} />
             </Link>
 
@@ -171,10 +137,10 @@ function Navbar (props) {
 
             <div ref={strsRef} id="stry-links">
               
-                  <Link class="nav-elem-a" to={english ? "/paso-a-paso" : "/paso-a-paso-esp"}><div className="wrap-nav"><h4 class="nav-elem">{english? "STEP BY STEP" : "PASO A PASO"}</h4></div></Link>
-                  <Link class="nav-elem-a" to={english ? "/community" : "/comunidad"}><h4 class="nav-elem">{english? "A CULTURAL ANCHOR" : "COMUNIDAD"}</h4></Link>
-                  <Link class="nav-elem-a" to={english ? "/governance" : "/gobernancia"}><h4 class="nav-elem">{english? "RESISTANT, NOT RESILIENT" : "GOBERNANCIA"}</h4></Link>
-                  <Link class="nav-elem-a" to={english ? "/against-the-current" : "/ambiente"}><h4 class="nav-elem">{english? "SHIFTING TIDES" : "LA PEQUEÑA GUERRA"}</h4></Link>
+                  <Link class="nav-elem-a" to={english ? "/step-by-step" : "/paso-a-paso-esp"}><div className="wrap-nav"><h4 class="nav-elem">{english? "STEP BY STEP" : "PASO A PASO"}</h4></div></Link>
+                  <Link class="nav-elem-a" to={english ? "/a-cultural-anchor" : "/comunidad"}><h4 class="nav-elem">{english? "A CULTURAL ANCHOR" : "COMUNIDAD"}</h4></Link>
+                  <Link class="nav-elem-a" to={english ? "/resistant-not-resilient" : "/gobernancia"}><h4 class="nav-elem">{english? "RESISTANT, NOT RESILIENT" : "GOBERNANCIA"}</h4></Link>
+                  <Link class="nav-elem-a" to={english ? "/shifting-tides" : "/ambiente"}><h4 class="nav-elem">{english? "SHIFTING TIDES" : "LA PEQUEÑA GUERRA"}</h4></Link>
                   <Link class="nav-elem-a" to={english ? "/road-to-recovery" : "/salud"}><h4 class="nav-elem">{english? "ROAD TO RECOVERY" : "SALUD"}</h4></Link>
             </div>
 
@@ -185,15 +151,9 @@ function Navbar (props) {
               <button onClick={handleButtonClick} id="translation-box"><div id={myBoolean ? "l-box" : "r-box"}>EN</div><div id={myBoolean ? "r-box" : "l-box"}>ES</div></button>
             </div>
           
-    </div>
-    
-      </>
-      
-    )
-
-  
+    </div>  
+      </>   
+    ) 
 }
-
-
 
 export default Navbar;
