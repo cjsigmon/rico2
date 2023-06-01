@@ -250,6 +250,7 @@
 
     .panel p {
       font-size: 3vh!important;
+      bottom: 0px;
     }
 
    }
